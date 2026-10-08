@@ -1,0 +1,17 @@
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+
+async def mikrotik_menu(update, context):
+
+    query = update.callback_query
+    await query.answer()
+
+    keyboard = [
+        [InlineKeyboardButton("🌐 KWL", callback_data="mt_pppoe1")],
+        [InlineKeyboardButton("🌐 NOMBES", callback_data="mt_pppoe2")],
+        [InlineKeyboardButton("🔙 Kembali", callback_data="main_menu")]
+    ]
+
+    await query.edit_message_text(
+        "🌐 Pilih MikroTik",
+        reply_markup=InlineKeyboardMarkup(keyboard)
+    )

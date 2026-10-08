@@ -1,0 +1,342 @@
+from telegram import (
+    Update,
+    ReplyKeyboardMarkup,
+    InlineKeyboardMarkup,
+    InlineKeyboardButton,
+)
+
+from telegram.ext import (
+    Application,
+    CommandHandler,
+    MessageHandler,
+    CallbackQueryHandler,
+    ContextTypes,
+    filters,
+)
+
+from olt.zte import get_uncfg_onu
+from olt.parser import parse_uncfg
+
+BOT_TOKEN = "8743219836:AAErmf_AtZKegQoG0VEnZEYr3VGmRh99NFo"
+
+MAIN_MENU = ReplyKeyboardMarkup(
+    [
+        ["📊 STATUS", "🔍 CARI"],
+        ["📝 REGISTRASI"]
+    ],
+    resize_keyboard=True
+)
+
+ONU_TYPES = [
+    "ALL-ONT",
+    "ALL-ONU(5G)",
+    "OPEN_HUAWEI"
+]
+
+ONU_MODES = [
+    "PPPoE",
+    "Bridge",
+    "PPPoE+Bridge"
+]
+
+PACKAGES = {
+    "4 Mbps": "UPto-4M",
+    "5 Mbps": "UPto-5M",
+    "6 Mbps": "UPto-6M",
+    "10 Mbps": "UPto-10M",
+    "20 Mbps": "UPto-20M",
+    "30 Mbps": "UPto-30M",
+    "50 Mbps": "UPto-50M",
+    "100 Mbps": "UPto-100M",
+    "200 Mbps": "UPto-200M"
+}
+
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+
+    await update.message.reply_text(
+        "Selamat datang di Bot ONU",
+        reply_markup=MAIN_MENU
+    )
+
+
+async def menu_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
+
+    text = update.message.text
+
+    if text == "📝 REGISTRASI":
+
+        output = get_uncfg_onu()
+
+        onu_list = parse_uncfg(output)
+
+        context.user_data["uncfg_onu"] = onu_list
+
+        buttons = []
+
+        for i, onu in enumerate(onu_list):
+
+            buttons.append([
+                InlineKeyboardButton(
+                    f"{onu['sn']} ({onu['pon']})",
+                    callback_data=f"sn_{i}"
+                )
+            ])
+
+        await update.message.reply_text(
+            "Pilih ONU UNCFG",
+            reply_markup=InlineKeyboardMarkup(buttons)
+        )
+
+    elif text == "📊 STATUS":
+
+        await update.message.reply_text(
+            "STATUS BELUM DIBUAT"
+        )
+
+    elif text == "🔍 CARI":
+
+        await update.message.reply_text(
+            "FITUR CARI BELUM DIBUAT"
+        )
+
+    if context.user_data.get("step") == "customer_name":
+
+        context.user_data["customer"] = text
+
+        keyboard = [
+            [
+                InlineKeyboardButton(
+                    "✅ REGISTER",
+                    callback_data="register"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                    "❌ BATAL",
+                    callback_data="cancel"
+                )
+            ]
+        ]
+
+        await update.message.reply_text(
+            f"Konfirmasi Registrasi\n\n"
+            f"Nama : {text}\n"
+            f"SN : {context.user_data['sn']}\n"
+            f"PON : {context.user_data['pon']}\n"
+            f"TYPE : {context.user_data['onu_type']}\n"
+            f"MODE : {context.user_data['mode']}\n"
+            f"VLAN : {context.user_data['vlan']}",
+            f"Paket : {context,user_date['package']}\n"
+            reply_markup=InlineKeyboardMarkup(keyboard)
+        )
+
+        context.user_data["step"] = None
+        return
+
+
+async def callback_handler(update: Update,
+                           context: ContextTypes.DEFAULT_TYPE):
+
+    query = update.callback_query
+
+    await query.answer()
+
+    data = query.data
+
+    if data.startswith("sn_"):
+
+        idx = int(data.split("_")[1])
+
+        onu_list = context.user_data.get("uncfg_onu", [])
+
+        if idx >= len(onu_list):
+
+            await query.answer(
+                "Data ONU tidak ditemukan",
+                show_alert=True
+            )
+            return
+
+        context.user_data["sn"] = onu_list[idx]["sn"]
+        context.user_data["pon"] = onu_list[idx]["pon"]
+
+        buttons = []
+
+        for t in ONU_TYPES:
+
+            buttons.append([
+                InlineKeyboardButton(
+                    t,
+                    callback_data=f"type_{t}"
+                )
+            ])
+
+        await query.edit_message_text(
+            f"SN : {context.user_data['sn']}\n"
+            f"PON : {context.user_data['pon']}\n\n"
+            f"Pilih ONU Type",
+            reply_markup=InlineKeyboardMarkup(buttons)
+        )
+
+    elif data.startswith("type_"):
+
+        onu_type = data.replace("type_", "")
+
+        context.user_data["onu_type"] = onu_type
+
+        buttons = []
+
+        for mode in ONU_MODES:
+            buttons.append([
+                InlineKeyboardButton(
+                    mode,
+                    callback_data=f"mode_{mode}"
+                )
+            ])
+
+        await query.edit_message_text(
+            f"SN : {context.user_data['sn']}\n"
+            f"PON : {context.user_data['pon']}\n"
+            f"TYPE : {onu_type}\n\n"
+            f"PILIH Mode",
+            reply_markup=InlineKeyboardMarkup(buttons)
+        )
+
+    elif data.startswith("mode_"):
+
+        mode = data.replace("mode_", "")
+
+        context.user_data["mode"] = mode
+
+        keyboard = [
+            [
+                InlineKeyboardButton(
+                     "KWL 150",
+                    callback_data="vlan_150"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                     "TJS 151",
+                    callback_data="vlan_151"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                     "SS 152",
+                    callback_data="vlan_152"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                     "153 EG",
+                    callback_data="vlan_153"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                    "MDR 154",
+                    callback_data="vlan_154"
+                )
+            ],
+            [
+                InlineKeyboardButton(
+                    "AMIN 177",
+                    callback_data="vlan_177"
+                )
+            ]
+        ]
+
+        await query.edit_message_text(
+            f"SN : {context.user_data['sn']}\n"
+            f"PON : {context.user_data['pon']}\n"
+            f"TYPE : {context.user_data['onu_type']}\n"
+            f"MODE : {mode}\n\n"
+            f"Pilih VLAN",
+            reply_markup=InlineKeyboardMarkup(keyboard)
+    )
+
+    elif data.startswith("vlan_"):
+
+        vlan = data.replace("vlan_", "")
+
+        context.user_data["vlan"] = vlan
+
+        buttons = []
+
+        for label, profile in PACKAGES.items()
+            buttons.append([
+                InlineKeyboardButton(
+                    label,
+                    callback_data=f"{profile}"
+                )
+            ])
+
+        await query.edit_message_text(
+            f"SN   : {context.user_data['sn']}\n"
+            f"PON  : {context.user_data['pon']}\n"
+            f"TYPE : {context.user_data['onu_type']}\n"
+            f"MODE : {context.user_data['mode']}\n"
+            f"VLAN : {vlan}\n\n"
+    )
+
+    elif data.startswith("pkg_"):
+
+        package = data.replace("pkg_", "")
+
+        context.user_data["package"] = package
+
+        await query.edit_message_text(
+            f"SN   : {context.user_data['sn']}\n"
+            f"PON  : {context.user_data['pon']}\n"
+            f"TYPE : {context.user_data['onu_type']}\n"
+            f"MODE : {context.user_data['mode']}\n"
+            f"VLAN : {context.user_data['vlan']}\n"
+            f"PAKET : {context.user_data['package']}\n\n"
+            f"Ketik Nama Pelanggan"
+        )
+
+    context.user_data["step"] = "customer_name"
+
+    elif data == "cancel":
+
+        context.user_data.clear()
+
+        await query.edit_message_text(
+            "Registrasi dibatalkan"
+        )
+
+    elif data == "register":
+
+        await query.edit_message_text(
+            "⏳ Sedang melakukan registrasi ONU..."
+        )
+
+        print(context.user_data)
+
+def main():
+
+    app = Application.builder().token(
+        BOT_TOKEN
+    ).build()
+
+    app.add_handler(
+        CommandHandler("start", start)
+    )
+
+    app.add_handler(
+        CallbackQueryHandler(callback_handler)
+    )
+
+    app.add_handler(
+        MessageHandler(
+            filters.TEXT & ~filters.COMMAND,
+            menu_handler
+        )
+    )
+
+    app.run_polling()
+
+
+if __name__ == "__main__":
+    main()

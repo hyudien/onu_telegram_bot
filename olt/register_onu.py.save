@@ -1,0 +1,93 @@
+import telnetlib
+import time
+
+from olt.zte import HOST, USER, PASS
+
+
+def send_command(tn, cmd, delay=1):
+
+    print("SEND >", cmd)
+
+    tn.write(cmd.encode() + b"\n")
+    time.sleep(delay)
+
+    result =  tn.read_very_eager().decode(
+        errors="ignore"
+    )
+
+    print(result)
+
+    return result
+
+
+def register_onu(data, onu_id):
+
+    tn = telnetlib.Telnet(HOST, 23)
+
+    tn.read_until(b"Username:")
+    tn.write(USER.encode() + b"\n")
+
+    tn.read_until(b"Password:")
+    tn.write(PASS.encode() + b"\n")
+
+    time.sleep(1)
+
+    send_command(tn, "enable")
+    send_command(tn, "terminal length 0")
+    send_command(tn, "conf t")
+
+    pon = data["pon"]
+    sn = data["sn"]
+    onu_type = data["onu_type"]
+
+    result = send_command(
+        tn,
+        f"interface gpon-olt_{pon}"
+    )
+
+    result += send_command(
+        tn,
+        f"onu {onu_id} type {onu_type} sn {sn}",
+        2
+    )
+
+    tn.write(b"exit\n")
+    tn.close()
+
+    return result
+
+def configure_pppoe(tn, data, onu_id):
+    send_command(
+        tn,
+        f"interface gpon-onu_{data['pon']}:{onu_id}"
+    )
+
+    send_command(
+        tn,
+        f"name {data['customer']}"
+    )
+
+    send_command(
+        tn,
+        f"tcont 1 name PPP profile {data['package']}"
+    )
+
+    send_command(
+        tn,
+        "gemport 1 name PPP tcont 1"
+    )
+
+    send_command(
+        tn,
+        f"gemport 1 traffic-limit upstream {data['package']} downstream {data['package']}"
+    )
+
+send_command(
+    tn,
+    f"service-port 1 vport 1 user-vlan {data['vlan']} vlan {data['vlan']}"
+)
+
+send_command(
+    tn,
+    "service-port 1 description PPP"
+)

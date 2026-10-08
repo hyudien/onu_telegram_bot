@@ -1,0 +1,284 @@
+from telegram import (
+    InlineKeyboardMarkup,
+    InlineKeyboardButton,
+    Update
+)
+
+from telegram.ext import ContextTypes
+
+from olt.zte import get_uncfg_onu
+from olt.zte import get_olt_config
+from olt.parser import parse_uncfg
+
+from data.onu_types import ONU_TYPES
+
+from data.modes import ONU_MODES
+
+from data.vlans import VLANS
+
+from data.packages import PACKAGES
+from olt.find_onu_id import find_free_onu_id
+from olt.register_onu import register_onu
+
+async def menu_handler(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE
+):
+
+    text = update.message.text
+
+    if text == "📝 REGISTRASI":
+
+        output = get_uncfg_onu()
+
+        onu_list = parse_uncfg(output)
+
+        context.user_data["uncfg_onu"] = onu_list
+
+        buttons = []
+
+        for i, onu in enumerate(onu_list):
+
+            buttons.append([
+                InlineKeyboardButton(
+                    f"{onu['sn']} ({onu['pon']})",
+                    callback_data=f"sn_{i}"
+                )
+            ])
+
+        await update.message.reply_text(
+            "Pilih ONU UNCFG",
+            reply_markup=InlineKeyboardMarkup(
+                buttons
+            )
+        )
+
+    if context.user_data.get("step") == "customer_name":
+
+        context.user_data["customer"] = text
+
+        buttons = [
+            [
+               InlineKeyboardButton(
+                   "✅ REGISTRASI",
+                   callback_data="register"
+               )
+            ],
+            [
+               InlineKeyboardButton(
+                   "❌ BATAL",
+                   callback_data="cancel"
+               )
+            ]
+        ]
+
+        await update.message.reply_text(
+            f"KONFIRMASI REGISTRASI\n\n"
+            f"Nama  : {text}\n"
+            f"SN    : {context.user_data['sn']}\n"
+            f"PON   : {context.user_data['pon']}\n"
+            f"TYPE  : {context.user_data['onu_type']}\n"
+            f"MODE  : {context.user_data['mode']}\n"
+            f"VLAN  : {context.user_data['vlan']}\n"
+            f"PAKET : {context.user_data['package']}",
+            reply_markup=InlineKeyboardMarkup(buttons)
+        )
+
+        context.user_data["step"] = None
+
+        return
+
+async def callback_handler(
+    update: Update,
+    context: ContextTypes.DEFAULT_TYPE
+):
+
+    query = update.callback_query
+
+    await query.answer()
+
+    data = query.data
+
+    if data.startswith("sn_"):
+
+        idx = int(
+            data.split("_")[1]
+        )
+
+        onu_list = context.user_data.get(
+            "uncfg_onu",
+            []
+        )
+
+        if idx >= len(onu_list):
+
+            await query.answer(
+                "Data ONU tidak ditemukan",
+                show_alert=True
+            )
+            return
+
+        onu = onu_list[idx]
+
+        context.user_data["sn"] = onu["sn"]
+        context.user_data["pon"] = onu["pon"]
+
+        buttons = []
+
+        for t in ONU_TYPES:
+
+            buttons.append([
+                InlineKeyboardButton(
+                    t,
+                    callback_data=f"type_{t}"
+                )
+            ])
+
+        await query.edit_message_text(
+            f"SN : {onu['sn']}\n"
+            f"PON : {onu['pon']}\n\n"
+            f"Pilih ONU Type",
+            reply_markup=InlineKeyboardMarkup(
+                buttons
+            )
+        )
+
+    elif data.startswith("type_"):
+
+        onu_type = data.replace(
+            "type_",
+            ""
+        )
+
+        context.user_data["onu_type"] = onu_type
+
+        buttons = []
+
+        for mode in ONU_MODES:
+
+            buttons.append([
+               InlineKeyboardButton(
+                   mode,
+                   callback_data=f"mode_{mode}"
+               )
+            ])
+
+        await query.edit_message_text(
+            f"SN   : {context.user_data['sn']}\n"
+            f"PON  : {context.user_data['pon']}\n"
+            f"TYPE : {onu_type}"
+            f"Pilih Mode",
+            reply_markup=InlineKeyboardMarkup(
+                buttons
+            )
+        )
+
+    elif data.startswith("mode_"):
+
+        mode = data.replace(
+            "mode_",
+            ""
+        )
+
+        context.user_data["mode"] = mode
+
+        buttons = []
+
+        for name, vlan in VLANS.items():
+            buttons.append([
+                InlineKeyboardButton(
+                    name,
+                    callback_data=f"vlan_{vlan}"
+                )
+            ])
+
+        await query.edit_message_text(
+            f"SN   : {context.user_data['sn']}\n"
+            f"PON  : {context.user_data['pon']}\n"
+            f"TYPE : {context.user_data['onu_type']}\n"
+            f"MODE : {mode}"
+            f"Pilih VLAN",
+            reply_markup=InlineKeyboardMarkup(
+                buttons
+            )
+        )
+
+    elif data.startswith("vlan_"):
+
+        vlan = data.replace(
+            "vlan_",
+            ""
+        )
+
+        context.user_data["vlan"] = vlan
+
+        buttons = []
+
+        for name, profile in PACKAGES.items():
+            buttons.append([
+               InlineKeyboardButton(
+                   name,
+                   callback_data=f"pkg_{profile}"
+               )
+            ])
+
+        await query.edit_message_text(
+            f"SN   : {context.user_data['sn']}\n"
+            f"PON  : {context.user_data['pon']}\n"
+            f"TYPE : {context.user_data['onu_type']}\n"
+            f"MODE : {context.user_data['mode']}\n"
+            f"VLAN : {vlan}"
+            f"Pilih Paket",
+            reply_markup=InlineKeyboardMarkup(
+                buttons
+            )
+        )
+
+    elif data.startswith("pkg_"):
+
+        package = data.replace(
+            "pkg_",
+            ""
+        )
+
+        context.user_data["package"] = package
+
+        await query.edit_message_text(
+            f"SN     : {context.user_data['sn']}\n"
+            f"PON    : {context.user_data['pon']}\n"
+            f"TYPE   : {context.user_data['onu_type']}\n"
+            f"MODE   : {context.user_data['mode']}\n"
+            f"VLAN   : {context.user_data['vlan']}\n"
+            f"PAKET  : {package}\n\n"
+            f"Ketik Nama Pelanggan"
+        )
+
+        context.user_data["step"] = "customer_name"
+
+    elif data == "cancel":
+
+        context.user_data.clear()
+
+        await query.edit_message_text(
+            "Registrasi dibatalkan"
+        )
+
+    elif data == "register":
+
+        await query.edit_message_text(
+            "⏳ Sedang registrasi ONU..."
+        )
+
+        result = register_onu(
+            context.user_data
+        )
+        if result:
+           await query.message.reply_text(
+               "✅ Registrasi berhasil"
+           )
+        else:
+           await query.message.reply_text(
+               "❌ Registrasi gagal"
+           )
+
+        print(context.user_data)

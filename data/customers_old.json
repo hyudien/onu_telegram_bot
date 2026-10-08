@@ -1,0 +1,4494 @@
+[
+    {
+        "pon": "1/1/1",
+        "onu_id": "1",
+        "sn": "HWTC070D11FF",
+        "name": "PUTRI KUS -24",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "putri@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "2",
+        "sn": "ZTEGD4A45D7D",
+        "name": "ENI JIHAN -24",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "jihan@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "3",
+        "sn": "ZTEGD5D05DAB",
+        "name": "HARI ENI -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "hari@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "4",
+        "sn": "CMDC10A9D5F1",
+        "name": "MASRUL HUDA -20",
+        "package": "UPto-5M",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "5",
+        "sn": "ZTEGD1DF751A",
+        "name": "REPZA PARINI -17",
+        "package": "20Mbps",
+        "vlan": "177",
+        "pppoe_user": "parini@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "6",
+        "sn": "ZTEGC8A0764B",
+        "name": "BRG-DARANIA -23",
+        "package": "UPto-50M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "7",
+        "sn": "ZTEGD16500C0",
+        "name": "PUTPUT -19",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "putput@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "8",
+        "sn": "ZTEGCFD454A0",
+        "name": "MUFIT MAMEN-17",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "mamen@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "9",
+        "sn": "ZTEGCE1AD53E",
+        "name": "ULAN PAK KARSUN -24",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ulan@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "10",
+        "sn": "ZTEGCBDF6026",
+        "name": "HENDRIX ODP DARA -21",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "hendrix@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "11",
+        "sn": "ZTEGC853527F",
+        "name": "RENDI WASIS -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "rendi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "12",
+        "sn": "ZTEGC8A081CC",
+        "name": "BRG ANDRE JALUR ETAN -17",
+        "package": "UPto-40M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "13",
+        "sn": "RTEGC703154E",
+        "name": "YULIA GRANDONG -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ainun@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "14",
+        "sn": "RTEGC70B8810",
+        "name": "AYUNDA -26",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "ayunda@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "15",
+        "sn": "HWTCF021FDA3",
+        "name": "HERMAN YAYAN",
+        "package": "10Mbps",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "16",
+        "sn": "ZTEGC1D81F7F",
+        "name": "ISMATUL AAN -19",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "ismatul@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "17",
+        "sn": "ZTEGC8A061E3",
+        "name": "BRG SILO NEW-24",
+        "package": "10Mbps",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "18",
+        "sn": "ZTEGD1DF7A3F",
+        "name": "REVA ZEN ETAN",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "revazen@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "19",
+        "sn": "ZTEGD16614F1",
+        "name": "FERDI ERAN ODP RUSLAN -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ferdi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "20",
+        "sn": "ZTEGC0DBCD94",
+        "name": "IAM ODP OSKAB -20",
+        "package": "UPto-5M",
+        "vlan": "155",
+        "pppoe_user": "iam@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "21",
+        "sn": "ZTEGC674C5F2",
+        "name": "AIN FARO -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "alfaro@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "22",
+        "sn": "ZTEGD1663380",
+        "name": "EKO NANA -24",
+        "package": "UPto-20M",
+        "vlan": "177",
+        "pppoe_user": "eko@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "23",
+        "sn": "ZTEGD07A916E",
+        "name": "BETTI 5G",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "betti@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "24",
+        "sn": "HWTC070D34AF",
+        "name": "ROHMAN EATAN -21",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "rohman@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "25",
+        "sn": "ZTEGCC5C17D3",
+        "name": "IVAN NUR HARIADI -24",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "nuriman@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "26",
+        "sn": "ZTEGCAFBBBA3",
+        "name": "MINUK MASRUL -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "minuk@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "27",
+        "sn": "RTEGC7038E9F",
+        "name": "BANG ANDIK MARMI -23",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "marmi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "28",
+        "sn": "ZTEGCDFDFA9B",
+        "name": "JOUVAN BU IFA -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "jouvan@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "29",
+        "sn": "ZTEGC0B5814D",
+        "name": "MUTIARA FIKRI",
+        "package": "UPto-6M",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "30",
+        "sn": "RTEGC705DB41",
+        "name": "PAK OR ETAN",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "pakor@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "31",
+        "sn": "ZTEGD1C85989",
+        "name": "MAS ADI ODP ARIFKA 15",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "adinanda@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "32",
+        "sn": "ZTEGCFD47ADC",
+        "name": "SATURI QOMAR -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "saturi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "33",
+        "sn": "ZTEGD7725852",
+        "name": "ITA ODP SERIN -19",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ita@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "34",
+        "sn": "ZTEGC8A0B2B2",
+        "name": "TITIN BRG -20",
+        "package": "10Mbps",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "35",
+        "sn": "ZTEGD5D06AFF",
+        "name": "RIKI ANDIKA ODP 1:2 ROHMAN -22",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "riki@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "36",
+        "sn": "ZTEGC0D4C309",
+        "name": "ELLY KABAN -20",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "kabban@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "37",
+        "sn": "ZTEGCB062C8B",
+        "name": "LONDO HOLIS -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "londo@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "38",
+        "sn": "ZTEGC1E91215",
+        "name": "LULUK ARIFKA -19",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "arifka@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "39",
+        "sn": "ZTEGCB06E066",
+        "name": "RUSLAN REHAN -21",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "rehan@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "40",
+        "sn": "ZTEGC1E5FB2F",
+        "name": "HOLIS MAK SUWARNI -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "holis@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "41",
+        "sn": "ZTEGCFD448DF",
+        "name": "ABIDIN NALPOT -21",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "abidin@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "42",
+        "sn": "ZTEGD16618B8",
+        "name": "ZADDIN ETAN -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "zaddin@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "43",
+        "sn": "RTEGC70267E6",
+        "name": "NAJWA MBAK NIK -26",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "najwa@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "44",
+        "sn": "RTEGC70B5800",
+        "name": "FAFAN OLIVIA -15",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "fafan@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "45",
+        "sn": "ZTEGCEEF9B79",
+        "name": "NJOTO PENDI -31 KATE LOSSS",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "sujoto@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "46",
+        "sn": "ZTEGD16611AC",
+        "name": "SILBI ODP PUPUT -16",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "silbi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "47",
+        "sn": "ZTEGC85EB7F7",
+        "name": "ASTOEN JALUR ETAN -18",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "astoen@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "48",
+        "sn": "RTEGC703769B",
+        "name": "SAIFUL ETAN -21",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "saiful@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "49",
+        "sn": "RTEGC703697A",
+        "name": "IMRON ETAN",
+        "package": "UPto-5M",
+        "vlan": "155",
+        "pppoe_user": "imron@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "50",
+        "sn": "ZTEGC8A0C70C",
+        "name": "BRG ANISA -28",
+        "package": "UPto-6M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "51",
+        "sn": "ZTEGCE4B1D7C",
+        "name": "HENDRA SAYUR -20",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "hendra@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "52",
+        "sn": "ZTEGD1D9338E",
+        "name": "YANTI -21",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "yanti@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "53",
+        "sn": "ZTEGD164EF42",
+        "name": "WIDAD odp BETTI -24",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "widad@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "54",
+        "sn": "ZTEGC8A09394",
+        "name": "BRG-JIHAN ODP ARIFKA -24",
+        "package": "UPto-20M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "55",
+        "sn": "ZTEGCE06FA45",
+        "name": "HERMIN -26",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "hermin@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "56",
+        "sn": "ZTEGC1C122E5",
+        "name": "CAK SILO BAGUS -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "silo@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "57",
+        "sn": "ZTEGC0D4821A",
+        "name": "KENZO ETAN -24",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "kenzo@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "58",
+        "sn": "ZTEGD1DF76F4",
+        "name": "NAYEM ODP DARA -16",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "nayem@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "59",
+        "sn": "ZTEGD1D937E0",
+        "name": "WITONO ODP SUKES -16",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "witono@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "60",
+        "sn": "ZTEGD1DF720E",
+        "name": "UBAY BU TIUL ODP ASTON -21",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "ubay@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "61",
+        "sn": "ZTEGC9241D6F",
+        "name": "KANDANG JAROT",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "kandang@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "62",
+        "sn": "ZTEGC8A0645A",
+        "name": "AMEL BRG -22",
+        "package": "10Mbps",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "63",
+        "sn": "ZTEGC8A0BA8B",
+        "name": "BRG BINTANG  -21",
+        "package": "10Mbps",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "64",
+        "sn": "ZTEGC8A09DE7",
+        "name": "BAGAS BRG -28",
+        "package": "10Mbps",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "65",
+        "sn": "ZTEGC18D1AC7",
+        "name": "Fano Dela -25",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "fano@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "66",
+        "sn": "ZTEGD1DF6FCC",
+        "name": "DWICAHYONO -15",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "dwicahyono@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "67",
+        "sn": "ZTEGC677B022",
+        "name": "FAIK DIA ODP SUKES -21",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "faik@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "68",
+        "sn": "ZTEGD1663982",
+        "name": "KURY ZAKI ODP RUSLAN -24",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "kury@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "69",
+        "sn": "ZTEGCA91DDE6",
+        "name": "TOLIB BAIDAH -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "tolib@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "70",
+        "sn": "ZTEGC0D4C492",
+        "name": "TOMI LIA ODP ARIFKA -20",
+        "package": "UPto-25M",
+        "vlan": "177",
+        "pppoe_user": "liya@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "71",
+        "sn": "ZTEGCAFE816C",
+        "name": "SHINTA EDI -21",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "shinta@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "72",
+        "sn": "ZTEGC1DB1C0A",
+        "name": "ADI CAK BANDI -24",
+        "package": "UPto-4M",
+        "vlan": "177",
+        "pppoe_user": "dibrot@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "73",
+        "sn": "ZTEGD4A4221B",
+        "name": "FAREL LULUS ODP DARA -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "farel@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "74",
+        "sn": "ZTEGCFD47F6B",
+        "name": "TUNIK SANJAYA -15",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "firatunik@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "75",
+        "sn": "ZTEGC2C52965",
+        "name": "ADIT NEW -17",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "adit@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "76",
+        "sn": "ZTEGC0DB0DB3",
+        "name": "HUSNUL ETAN -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "husnul@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "77",
+        "sn": "ZTEGCAFE6272",
+        "name": "GOPYAN ODP MUFID -21",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "gopan@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "78",
+        "sn": "ZTEGD4AF89F2",
+        "name": "MELLANI BRODEN -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "mellani@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "79",
+        "sn": "ZTEGC0B7A948",
+        "name": "LUTFI NEW -18",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "lutfi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "80",
+        "sn": "ZTEGC1DAAFEF",
+        "name": "ALIF BARU -16",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "alif@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "81",
+        "sn": "ZTEGC8A0896C",
+        "name": "BRG AMZA -27",
+        "package": "10Mbps",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "82",
+        "sn": "ZTEGC1DA9E5E",
+        "name": "PONO BUK SUL -27",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "phono@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "83",
+        "sn": "ZTEGC0B79B72",
+        "name": "RAFI SURI -25",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "rafi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "84",
+        "sn": "ZTEGC1C3478E",
+        "name": "SAHRUL TARMAN -23",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "sahrul@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "85",
+        "sn": "ZTEGCAFE7FDF",
+        "name": "BILLY BUK TATIK -26",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "billy@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "86",
+        "sn": "ZTEGC817405C",
+        "name": "CEMPE RIPIN -26",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "cempe@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "87",
+        "sn": "ZICG27714CD3",
+        "name": "GUS SYAIKHU -25",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "gus@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "88",
+        "sn": "ZTEGD5D04AE8",
+        "name": "AMIL ODP ASTON -17",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "amil@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "89",
+        "sn": "ZTEGD7725D70",
+        "name": "SULIS ERINA -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "sulis@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "90",
+        "sn": "ZTEGC823870E",
+        "name": "ANGGUN -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "anggun@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "91",
+        "sn": "ZTEGC8174B61",
+        "name": "NAURA GOPAR -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "naura@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "92",
+        "sn": "ZTEGD158C1EA",
+        "name": "ANA ETAN -29",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ana@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "93",
+        "sn": "ZTEGD1DF93EE",
+        "name": "WOTO -18",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "woto@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "94",
+        "sn": "ZICG27657956",
+        "name": "AFI BU ROHMAH -24",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "afi@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "95",
+        "sn": "ZTEGD1DF705A",
+        "name": "GIANTO -15",
+        "package": "UPto-10M",
+        "vlan": "155",
+        "pppoe_user": "gianto@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "96",
+        "sn": "ZTEGD1650072",
+        "name": "WAGIRUN SUSILOWATI -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "wagirun@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "97",
+        "sn": "PTEGC70E6B80",
+        "name": "ERNI ALIP -20",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "erni@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "98",
+        "sn": "HWTC987567AB",
+        "name": "VINA CAK DI -20",
+        "package": "10Mbps",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "99",
+        "sn": "HWTCDF6757D8",
+        "name": "TEGUH CAK DI -14",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "teguh@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "100",
+        "sn": "CIOT09C84980",
+        "name": "Jon Wetan -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "jon@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "101",
+        "sn": "CMDCB11B6816",
+        "name": "EZAR NURI -25",
+        "package": "UPto-5M",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "102",
+        "sn": "HWTCDF675758",
+        "name": "MBAH SINAM -25",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "mbahsinam@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "103",
+        "sn": "ZTEGC8A0ABED",
+        "name": "BRG FELLY -26",
+        "package": "10Mbps",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "104",
+        "sn": "ZTEGD774F75B",
+        "name": "GIMBRUL -19",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "gimbrul@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "105",
+        "sn": "ZTEGD1D96373",
+        "name": "MAS JENIPP ODP PUPUT -24",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "jenipp@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "106",
+        "sn": "HWTC070D981F",
+        "name": "CAK MAJID -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "madjid@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "107",
+        "sn": "RTEGC7037854",
+        "name": "ARINA HARI -23",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "arina@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "108",
+        "sn": "ZTEGD4AF5184",
+        "name": "WIRO ODP OSKAB -26",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "wiro@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "109",
+        "sn": "RTEGC70382AE",
+        "name": "ANTON UUL -19",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "anton@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "110",
+        "sn": "RTEGC70366C1",
+        "name": "RITA PAK BANJIR",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "rita@nombes.net"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "111",
+        "sn": "ZTEGD16614C0",
+        "name": "DEPI ODP BETI",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "depi@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "1",
+        "sn": "ZTEGD7751866",
+        "name": "CAK IRFAN ISBANDI -15",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "irfan@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "2",
+        "sn": "ZTEGD775B4D7",
+        "name": "NININ ODP VIONA -24",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ninin@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "3",
+        "sn": "HWTCF49535AB",
+        "name": "ANGGA BUADI UMAR",
+        "package": "UPto-6M",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "4",
+        "sn": "RTEGC1016BEE",
+        "name": "RIZQI ANGGA BAKIR",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "rizqi@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "5",
+        "sn": "RTEGC706A2B6",
+        "name": "FADLI KIDUL -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "fadli@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "6",
+        "sn": "ZTEGC0E5453C",
+        "name": "LOGIS JUMAT-20",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "logis@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "7",
+        "sn": "HWTC0701518F",
+        "name": "DJUMADI -22",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "jumadi@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "8",
+        "sn": "ZTEGCC5C77E6",
+        "name": "ULIL NEW -13",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ulil@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "9",
+        "sn": "RTEGC70469DE",
+        "name": "MUDI KASBEN -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "kasben@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "10",
+        "sn": "HWTC070D7DFF",
+        "name": "ZAINUR KALGOR -22",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "zainur@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "11",
+        "sn": "ZTEGCA2479A5",
+        "name": "IQBAL DWI -20",
+        "package": "10Mbps",
+        "vlan": "155",
+        "pppoe_user": "iqbal@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "12",
+        "sn": "ZTEGCD1818FD",
+        "name": "BIRUL DINA -21",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "birul@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "13",
+        "sn": "RTEGC70BDEC2",
+        "name": "ANWAR SAEMAN -26",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "anwar@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "14",
+        "sn": "RTEGC70325DD",
+        "name": "NARKO ARDI -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "narko@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "15",
+        "sn": "RTEGC704012D",
+        "name": "PUTRA GIARI -21",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "giarii@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "16",
+        "sn": "RTEGC703ABB8",
+        "name": "KALGOR UMAR -18",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "umar@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "17",
+        "sn": "ZTEGCA22FE75",
+        "name": "MANTET BANG JUMAT -27",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "mantet@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "18",
+        "sn": "RTEGC7039134",
+        "name": "FADHOL PIDAH -25",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "fadhol@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "19",
+        "sn": "ZTEGC1D79995",
+        "name": "DAni Dayat",
+        "package": "10Mbps",
+        "vlan": "155",
+        "pppoe_user": "danidayat@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "20",
+        "sn": "ZTEGC1D8CD7C",
+        "name": "BAYU SILPI -26",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "silpi@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "21",
+        "sn": "ZTEGC0DF1CC7",
+        "name": "NADIA TIYAS -23",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "nadia@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "22",
+        "sn": "CIOT22C52BF8",
+        "name": "BUK RIN",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "bukrin@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "23",
+        "sn": "ZTEGD1C8937B",
+        "name": "WIWIN NEW -15",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "wiwin@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "24",
+        "sn": "ZTEGC9E3B4E4",
+        "name": "Mbak Al -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "mbakal@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "25",
+        "sn": "ZTEGC0B92963",
+        "name": "AZAM NURIN -22",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "azam@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "26",
+        "sn": "ZTEGC1CE37AE",
+        "name": "LAIL BUK IS -24",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "lail@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "27",
+        "sn": "ZTEGC0BCD79E",
+        "name": "VIONA RISKI -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "viona@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "28",
+        "sn": "ZTEGC1C69C92",
+        "name": "SINTA IZZA -28",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "syifak@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "29",
+        "sn": "ZTEGC1CA6DC0",
+        "name": "KARIANI FIFI -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "kariani@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "30",
+        "sn": "ZTEGD4A467EB",
+        "name": "DAFFA BU IMA -18",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "tazkia@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "31",
+        "sn": "ZTEGCA91A823",
+        "name": "HELEN PERCIL",
+        "package": "UPto-5M",
+        "vlan": "155",
+        "pppoe_user": "helen@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "32",
+        "sn": "ZTEGC0DB65A5",
+        "name": "GITO Bu Sul -15",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "gito@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "33",
+        "sn": "ZTEGC8047B19",
+        "name": "HANDIKA KASAN -27",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "handika@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "34",
+        "sn": "ZTEGC0434A52",
+        "name": "AFIKA TIO SURI -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "afika@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "35",
+        "sn": "ZTEGC8044982",
+        "name": "DIKI KANG LEK -25",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "diki@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "36",
+        "sn": "ZICG2785C666",
+        "name": "MUHLIS BILA -26",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "muhlis@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "37",
+        "sn": "ZTEGCFD456E0",
+        "name": "BUKTIN MAS ALPAN -23",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "buktin@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "38",
+        "sn": "ZTEGC0B79CD8",
+        "name": "DATUL NURI",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "datul@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "39",
+        "sn": "ZTEGC92195E5",
+        "name": "AINUL SPLIT DIKI",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "ainul@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "40",
+        "sn": "ZTEGC922BDF9",
+        "name": "MBAK NIK CAK AGUS -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "nik@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "41",
+        "sn": "ZTEGC2C522CC",
+        "name": "EKKO KANIGORO -23",
+        "package": "UPto-4M",
+        "vlan": "177",
+        "pppoe_user": "ekko@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "42",
+        "sn": "CIOT0A2C4838",
+        "name": "YANES KALGOR -22",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "yanes@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "43",
+        "sn": "CIOT123EA9A8",
+        "name": "WIWIT KALGOR -22",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "wiwit@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "44",
+        "sn": "ZTEGD1D941BE",
+        "name": "BAHTIAR -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "bahtiar@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "45",
+        "sn": "ZTEGCDE88636",
+        "name": "SODIK KALGOR -20",
+        "package": "UPto-6M",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "46",
+        "sn": "CIOT11BE1530",
+        "name": "ERIK KALIGORO -24",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "erik@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "47",
+        "sn": "ZTEGC8A0CEF0",
+        "name": "BRG-MI ETAN -21",
+        "package": "UPto-40M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "48",
+        "sn": "ZTEGD1C868E0",
+        "name": "HARTONO ODP OMAH KULON -20",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "hartono@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "49",
+        "sn": "ZTEGD1D95F83",
+        "name": "MI AL HIDAYAH KARTURA -20",
+        "package": "UPto-100M",
+        "vlan": "177",
+        "pppoe_user": "kartura@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "50",
+        "sn": "ZICG276DF8DB",
+        "name": "JONI KALIGORO -20",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "joni@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "51",
+        "sn": "ZTEGC0EA2BE6",
+        "name": "RAYANZA OMAH KIDUL -20",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "rayanza@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "52",
+        "sn": "CIOT0A2CB5A0",
+        "name": "Tasya Erik Kanigoro -25",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "tasya@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "53",
+        "sn": "CIOT168C6180",
+        "name": "RIRIN KALIGORO -20",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "ririnn@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "54",
+        "sn": "ZTEGC1C25D57",
+        "name": "RINDI ZEN -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "rindi@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "55",
+        "sn": "HWTC15CA41AC",
+        "name": "GARVIL BILI -20",
+        "package": "10Mbps",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "56",
+        "sn": "ZTEGC881F41B",
+        "name": "ATIK ZULAIKHA -21",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "atik@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "57",
+        "sn": "ZICG27696561",
+        "name": "ROF UL ASMURI -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "roful@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "58",
+        "sn": "HWTCB436AC9D",
+        "name": "KOPRAS HALOKES -13",
+        "package": "10Mbps",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "59",
+        "sn": "CIOT22291CD8",
+        "name": "JIJAH BASIR -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "jijah@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "60",
+        "sn": "ZTEGC63003D6",
+        "name": "ISWANTO KANIGORO",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "iswanto@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "61",
+        "sn": "ZTEGD1C87BB3",
+        "name": "NISA LOR MI-20",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "nisarohim@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "62",
+        "sn": "ZTEGD1C84C9C",
+        "name": "TKMNU 8 AL HIDAYAH -13",
+        "package": "UPto-20M",
+        "vlan": "177",
+        "pppoe_user": "tekamnu@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "63",
+        "sn": "RTEGC1012C27",
+        "name": "NUNUL J KANIGORO",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "nunul@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "64",
+        "sn": "RTEGC7032844",
+        "name": "BINTANG SOL -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "bintang@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "69",
+        "sn": "ZTEGC1C97D73",
+        "name": "RAFKA ODP HALOKES -20",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "rafka@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "76",
+        "sn": "ZTEGD5D04DE3",
+        "name": "MARISA ODP HALOKES -18",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "marisa@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "91",
+        "sn": "ZTEGD4AF7372",
+        "name": "SUKESWONO -15",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "sukes@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "98",
+        "sn": "ZTEGD1D94DB8",
+        "name": "AGUS ISNAINI -20",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "agusisnaini@nombes.net"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "102",
+        "sn": "HWTC070D3CFF",
+        "name": "LILIS LOR -15",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "gilang@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "1",
+        "sn": "ZTEGD10B5DFF",
+        "name": "YUYUN",
+        "package": "UPto-5M",
+        "vlan": "155",
+        "pppoe_user": "yuyun@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "2",
+        "sn": "ZTEGC8A0AFF1",
+        "name": "BRG-OMAH KULON -21",
+        "package": "UPto-100M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "3",
+        "sn": "RTEGC703D800",
+        "name": "KINANTI -23",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "kinanti@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "4",
+        "sn": "ZTEGC8517E63",
+        "name": "ANDRI KULON -23",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "muriadi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "5",
+        "sn": "ZTEGC8A0AA93",
+        "name": "BRG_OMAH ETAN -26",
+        "package": "UPto-100M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "6",
+        "sn": "HWTC070D126F",
+        "name": "SANTOSO -22",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "santoso@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "7",
+        "sn": "HWTC9AC330AB",
+        "name": "BARIZA ZEN",
+        "package": "UPto-5M",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "8",
+        "sn": "HWTCDF6758B8",
+        "name": "SITA PAUD -26",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "sita@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "9",
+        "sn": "ZTEGD7728657",
+        "name": "BYAN BU NIA -22",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "byan@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "10",
+        "sn": "ZTEGD7725D76",
+        "name": "PAUD SD -20",
+        "package": "UPto-200M",
+        "vlan": "177",
+        "pppoe_user": "kbpaud@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "11",
+        "sn": "ZTEGD1D95745",
+        "name": "AGUS PRAS WITO -24",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "aguspras@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "12",
+        "sn": "HWTC070D3B0F",
+        "name": "IMAM SAFII -20",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "imam@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "13",
+        "sn": "HWTC070D8E8F",
+        "name": "SHOFI -23",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "shofi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "14",
+        "sn": "ZTEGCE05E182",
+        "name": "BU ELI PUSTU -21",
+        "package": "10Mbps",
+        "vlan": "155",
+        "pppoe_user": "eli@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "15",
+        "sn": "RTEGC70B5E70",
+        "name": "DIVAA PUSTU -19",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "divaa@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "16",
+        "sn": "HWTC070D986F",
+        "name": "DYAH AZIZ -21",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "diyahazis@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "17",
+        "sn": "ZTEGC8A08E45",
+        "name": "BRG-PUSTU -21",
+        "package": "UPto-40M",
+        "vlan": "44"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "18",
+        "sn": "ZTEGC0DB4AB8",
+        "name": "NAZIL ODP EXCEL-24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "nazil@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "19",
+        "sn": "ZTEGCC94541F",
+        "name": "Sudar Moda -28",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "sudar@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "20",
+        "sn": "HWTC9ABA40AB",
+        "name": "WIWIK -21",
+        "package": "UPto-15M",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "21",
+        "sn": "ZTEGCEFE89A7",
+        "name": "BUK TINING -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "fita@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "22",
+        "sn": "RTEGC70390A9",
+        "name": "RIRIS ABAH JEZZ",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "riris@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "23",
+        "sn": "ZTEGC4564A35",
+        "name": "HASNAH FIKI OMAH ETAN -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "hasnah@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "24",
+        "sn": "RTEGC70326F2",
+        "name": "MESLAN -23",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "meslan@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "25",
+        "sn": "ZTEGCFD485D0",
+        "name": "ADEL ODP NADA -17",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "adel@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "26",
+        "sn": "RTEGC703B78E",
+        "name": "DIO TUMISRI -23",
+        "package": "UPto-5M",
+        "vlan": "155",
+        "pppoe_user": "dio@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "27",
+        "sn": "RTEGC10137B7",
+        "name": "BAHAK INTAN -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "bahak@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "28",
+        "sn": "ZTEGD1661423",
+        "name": "P. REJAN ODP NADA -18",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "rejan@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "29",
+        "sn": "ZTEGD1662D00",
+        "name": "RIPIN KULON -21",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "ripin@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "30",
+        "sn": "ZTEGC0A7974D",
+        "name": "UUN LIMIN",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "uun@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "31",
+        "sn": "ZTEGC2C52B36",
+        "name": "ROFHI FADLI -22",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "rofhi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "32",
+        "sn": "ZTEGC0B9381B",
+        "name": "NOPRET CILIHO -21",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "nopi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "33",
+        "sn": "ZTEGD1C87253",
+        "name": "KANTOR DESA -21",
+        "package": "UPto-40M",
+        "vlan": "177",
+        "pppoe_user": "kandes@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "34",
+        "sn": "ZTEGD4A42A3D",
+        "name": "RENA ODP EJM J NADA",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "rena@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "35",
+        "sn": "ZTEGC1CAAA78",
+        "name": "HENDROE KULON -24",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "hendroe@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "36",
+        "sn": "ZTEGD775134D",
+        "name": "MASJID KULON -18",
+        "package": "20Mbps",
+        "vlan": "177",
+        "pppoe_user": "masjid@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "37",
+        "sn": "ZTEGC6302328",
+        "name": "LIHAN INDAR -23",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "lihan@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "38",
+        "sn": "ZTEGCFD47C2E",
+        "name": "CAK MOEN FERI -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "moen@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "39",
+        "sn": "RTEGC1016BEE",
+        "name": "RIZQI ANGGA",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "rizqi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "40",
+        "sn": "ZICG27818332",
+        "name": "NANDA ABAH RIPIN -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "nanda@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "41",
+        "sn": "HWTC0701604F",
+        "name": "ASBUDI KOS -22",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "asbudi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "42",
+        "sn": "HWTC03044F30",
+        "name": "FAHRI KICUN",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "fahri@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "43",
+        "sn": "ZTEGD1C85A63",
+        "name": "PAK YAI ABDUL AZIS -21",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "yai@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "44",
+        "sn": "ZTEGCAFE7E44",
+        "name": "YULI AGUS -24",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "yuli@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "45",
+        "sn": "ZTEGD5D83C9E",
+        "name": "NIZAR EXEL -14",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "nizar@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "46",
+        "sn": "HWTCDF618E30",
+        "name": "RIRISS DEWE -23",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "ririss@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "47",
+        "sn": "ZTEGC9E12EDC",
+        "name": "NUZUL IIS -25",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "nuzul@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "48",
+        "sn": "HWTC188E2FA8",
+        "name": "FATHAN OMAH BELAKANG",
+        "package": "10Mbps",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "49",
+        "sn": "HWTCA8DB59AB",
+        "name": "SIONO MAK PON",
+        "package": "10Mbps",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "50",
+        "sn": "ZTEGC86BD8D6",
+        "name": "BADRUN -24",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "badrun@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "51",
+        "sn": "ZTEGC86099DB",
+        "name": "PAAT KULONE PUSTU -21",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "paat@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "52",
+        "sn": "ZTEGC82382A9",
+        "name": "HISAM MIA -28",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "hisam@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "53",
+        "sn": "ZICG277CA9E6",
+        "name": "BAGASS KULON -19",
+        "package": "UPto-5M",
+        "vlan": "177",
+        "pppoe_user": "bagass@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "54",
+        "sn": "HWTC33F4A3AC",
+        "name": "SAMAT AZAM -24",
+        "package": "10Mbps",
+        "vlan": "177"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "55",
+        "sn": "ZTEGD5D83CA3",
+        "name": "BAPAK SUHARI -20",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "paksuhari@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "56",
+        "sn": "ZTEGD16634DF",
+        "name": "KOPDES -20",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "kopdes@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "57",
+        "sn": "ZTEGC6309023",
+        "name": "ADITYA MBURI",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "aditya@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "58",
+        "sn": "ZTEGCD9D4DBD",
+        "name": "Basir Dwi Kulon",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "basir@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "59",
+        "sn": "ZTEGD5D82CFF",
+        "name": "SETER",
+        "package": "20Mbps",
+        "vlan": "177",
+        "pppoe_user": "seter@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "60",
+        "sn": "RTEGC601F372",
+        "name": "galaksi_ksb",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "galaksi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "65",
+        "sn": "ZTEGD1D93AB0",
+        "name": "SUPRI REVA -22",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "supri@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "71",
+        "sn": "ZTEGCFD43C5C",
+        "name": "CAKNAN KOS ODP PUSTU -18",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "caknan@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "75",
+        "sn": "ZTEGD4A44183",
+        "name": "PAK ZEMI ODP PUSAT -18",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "zemi@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "77",
+        "sn": "ZTEGD4A467C8",
+        "name": "HAMIM  -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "chamim@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "78",
+        "sn": "ZTEGD7759EEC",
+        "name": "AZZAHRA  ODP NADA -22",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "azzahra@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "79",
+        "sn": "ZTEGD1D938C0",
+        "name": "GOPAR ODP P JULI -26",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "gopar@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "80",
+        "sn": "ZTEGD4AFC93D",
+        "name": "KASIYAN ODP AXEL -19",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "kasiyan@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "81",
+        "sn": "ZTEGD77242C0",
+        "name": "RENOTBAYU -25",
+        "package": "UPto-10M",
+        "vlan": "155",
+        "pppoe_user": "renotbayu@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "83",
+        "sn": "RTEGC706804A",
+        "name": "CAKNAN2 ODP AXEL -19",
+        "package": "UPto-6M",
+        "vlan": "177",
+        "pppoe_user": "caknan2@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "85",
+        "sn": "ZTEGCFD44DAE",
+        "name": "EDILAS ODP AXEL -19",
+        "package": "UPto-15M",
+        "vlan": "177",
+        "pppoe_user": "edilas@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "86",
+        "sn": "ZTEGD5D04AE0",
+        "name": "MIPTA ODP AXEL -18",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "mipta@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "92",
+        "sn": "ZTEGD5D04AE7",
+        "name": "PUTRAE PAK HARI -18",
+        "package": "UPto-30M",
+        "vlan": "177",
+        "pppoe_user": "putrae@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "96",
+        "sn": "ZTEGCFD479B2",
+        "name": "BU ANIK -22",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "anik@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "99",
+        "sn": "ZTEGD1D957B6",
+        "name": "EXEL-22",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "excel@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "101",
+        "sn": "ZTEGCFD45BEA",
+        "name": "PAK ISA RESKI -21",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "isa@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "103",
+        "sn": "HWTC070D3C2F",
+        "name": "RIDWAN KAML -22",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "ridwan@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "105",
+        "sn": "ZTEGD7756AC4",
+        "name": "SITI ASIYAH(ULUM) -19",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "siti@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "106",
+        "sn": "ZTEGD774E798",
+        "name": "PAK MASKUR -20",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "bukyat@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "107",
+        "sn": "ZTEGD1C8830A",
+        "name": "IDA PRISKO -23",
+        "package": "UPto-10M",
+        "vlan": "177",
+        "pppoe_user": "ida@nombes.net"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "109",
+        "sn": "ZTEGD1D95EA9",
+        "name": "SUHERMONO BENGKEL KULON -22",
+        "package": "10Mbps",
+        "vlan": "177",
+        "pppoe_user": "suhermono@nombes.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "1",
+        "sn": "ZTEGD0182538",
+        "name": "EG_GIBRAN",
+        "package": "UPto-6M",
+        "vlan": "153",
+        "pppoe_user": "eg_gibran@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "2",
+        "sn": "ZTEGD0182548",
+        "name": "EG_ARIARWAN",
+        "package": "UPto-6M",
+        "vlan": "153",
+        "pppoe_user": "eg_ariarwan@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "3",
+        "sn": "ZTEGCD9D3D21",
+        "name": "EG_IMRON",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_imron@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "4",
+        "sn": "ZTEGCFD4581E",
+        "name": "EG_SAMBASI",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "eg_sambasi@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "5",
+        "sn": "ZTEGCDFDFFF0",
+        "name": "EG_NURIAIKA",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_nuriaika@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "6",
+        "sn": "ZTEGD4AFA1AA",
+        "name": "EG_HENDRA",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_hendra@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "7",
+        "sn": "ZTEGCFD469D7",
+        "name": "EG_SHOLEH",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_sholeh@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "8",
+        "sn": "ZTEGD1C86DE0",
+        "name": "EG_NITA",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_nita@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "9",
+        "sn": "ZTEGC8A0CE77",
+        "name": "BRG_EG_01",
+        "package": "UPto-50M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "10",
+        "sn": "ZTEGCCA7F80E",
+        "name": "EG_SAFIUDIN",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_safiudin@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "11",
+        "sn": "ZTEGC0E79B06",
+        "name": "EG_RAGIL",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_ragil@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "13",
+        "sn": "ZTEGD228D768",
+        "name": "EG_FIRDA",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_firda@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "14",
+        "sn": "CMDCB12B30E2",
+        "name": "EG_GITES",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "gites@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "15",
+        "sn": "ZTEGD1D93A19",
+        "name": "EG_RAGA",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_raga@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "16",
+        "sn": "ZTEGD2281568",
+        "name": "EG_KHOTIMAH",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_khotimah@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "17",
+        "sn": "CIOT10E39964",
+        "name": "EG_DIDIK",
+        "package": "UPto-5M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "18",
+        "sn": "ZTEGD4284F78",
+        "name": "EG_MILNA",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_milna@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "19",
+        "sn": "ZTEGC0AEBEE7",
+        "name": "EG_ROKIM",
+        "package": "UPto-4M",
+        "vlan": "153",
+        "pppoe_user": "eg_rokim@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "20",
+        "sn": "ZTEGC8A0A930",
+        "name": "BRG_AJENG",
+        "package": "UPto-20M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "21",
+        "sn": "ZXICFF1C4628",
+        "name": "EG_SUNAN",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_sunan@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "22",
+        "sn": "CIOT0905F3E0",
+        "name": "EG_GITES_BAKSO",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_gites@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "23",
+        "sn": "ZTEGC877CFB0",
+        "name": "EG_DONI",
+        "package": "UPto-6M",
+        "vlan": "153",
+        "pppoe_user": "eg_doni@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "24",
+        "sn": "ZTEGC8A0641C",
+        "name": "BRG_KOYIN",
+        "package": "UPto-10M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "25",
+        "sn": "RTEGC70379B1",
+        "name": "EG_DITA",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_dita@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "26",
+        "sn": "ZTEGD328F4F8",
+        "name": "EG_ABDROHMAN",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "abdulrohman@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "28",
+        "sn": "ZTEGD01869C8",
+        "name": "EG_NAIRA",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_naira@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "29",
+        "sn": "ZTEGD2289B28",
+        "name": "EG_ARI",
+        "package": "UPto-6M",
+        "vlan": "153",
+        "pppoe_user": "eg_ari@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "30",
+        "sn": "ZICG29838CDB",
+        "name": "EG_BADRIYAH",
+        "package": "UPto-5M",
+        "vlan": "153"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "31",
+        "sn": "ZTEGC1D8C21E",
+        "name": "PAK DIDIK",
+        "package": "UPto-10M",
+        "vlan": "30",
+        "pppoe_user": "eg_pakdidik@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "32",
+        "sn": "ZTEGC1EC149F",
+        "name": "EG_MBAKRO",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_mbakro@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "33",
+        "sn": "RTEGC70B6B62",
+        "name": "EG_ANING",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_aning@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "34",
+        "sn": "ZTEGC18B5669",
+        "name": "EG_MUHAJIR",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_muhajir@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "35",
+        "sn": "ZTEGC8239B6C",
+        "name": "SS_AHMAD",
+        "package": "UPto-10M",
+        "vlan": "152",
+        "pppoe_user": "ss_ahmad@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "36",
+        "sn": "RTEGC703D848",
+        "name": "SS_ERVIL",
+        "package": "UPto-10M",
+        "vlan": "152",
+        "pppoe_user": "ss_ervil@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "37",
+        "sn": "ZTEGD018F2D8",
+        "name": "EG_NURHADI",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_nurhadi@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "38",
+        "sn": "ZTEGC0416D07",
+        "name": "EG_EDI",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_edi@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "39",
+        "sn": "ZTEGC0CBABAB",
+        "name": "EG_WIDODO",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_widodo@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "40",
+        "sn": "ZTEGC0E8A895",
+        "name": "EG_OKTA",
+        "package": "UPto-4M",
+        "vlan": "153",
+        "pppoe_user": "eg_okta@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "41",
+        "sn": "ZTEGCAFEA2D5",
+        "name": "EG_ALFI",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_alfi@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "42",
+        "sn": "ZTEGC039ED28",
+        "name": "EG_UMROTUL",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_umrotul@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "43",
+        "sn": "ZTEGC81769D7",
+        "name": "SS_BUDI",
+        "package": "UPto-10M",
+        "vlan": "152",
+        "pppoe_user": "ss_budi@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "44",
+        "sn": "ZTEGC073F76A",
+        "name": "SS_UMAIYAH",
+        "package": "UPto-5M",
+        "vlan": "152",
+        "pppoe_user": "ss_umaiyah@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "45",
+        "sn": "ZTEGC0E867AC",
+        "name": "EG_SULTAN",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_sultan@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "46",
+        "sn": "ZTEGC045EA73",
+        "name": "EG_TEGUH",
+        "package": "UPto-4M",
+        "vlan": "153",
+        "pppoe_user": "eg_teguh@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "47",
+        "sn": "ZTEGC0E08B6B",
+        "name": "EG_RODIYAH",
+        "package": "UPto-5M",
+        "vlan": "153",
+        "pppoe_user": "eg_rodiyah@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "48",
+        "sn": "ZTEGD4A4374C",
+        "name": "SS_AMIS",
+        "package": "UPto-20M",
+        "vlan": "152",
+        "pppoe_user": "ss_amis@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "49",
+        "sn": "ZTEGC0A5A65E",
+        "name": "EG_TUTIATI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "eg_tutiati@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "50",
+        "sn": "ZTEGC0C2829D",
+        "name": "EG_AFIFI",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_afifi@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "51",
+        "sn": "ZTEGC0818F3E",
+        "name": "SS_WASITO",
+        "package": "UPto-10M",
+        "vlan": "152",
+        "pppoe_user": "ss_wasito@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "52",
+        "sn": "MHEGCCCCDB5A",
+        "name": "EG_KHOIRUL",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_khoirul@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "53",
+        "sn": "CMDCB1214C65",
+        "name": "EG_NURMA",
+        "package": "UPto-10M",
+        "vlan": "153"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "54",
+        "sn": "ZTEGD4AFC82F",
+        "name": "EG_ABDILLAH",
+        "package": "UPto-10M",
+        "vlan": "152",
+        "pppoe_user": "eg_abdillah@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "55",
+        "sn": "CMDCB122F2CD",
+        "name": "EG_ROKIM_HOME",
+        "package": "UPto-4M",
+        "vlan": "153",
+        "pppoe_user": "eg_rokhim@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "56",
+        "sn": "CMDCB12DE604",
+        "name": "EG_ROMLI",
+        "package": "UPto-20M",
+        "vlan": "153",
+        "pppoe_user": "eg_romli@cyber.net"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "57",
+        "sn": "CMDCB123C956",
+        "name": "EG_PUNJUL",
+        "package": "UPto-10M",
+        "vlan": "153",
+        "pppoe_user": "eg_punjul@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "1",
+        "sn": "ZTEGD03E3B79",
+        "name": "HOME",
+        "package": "Loss1G",
+        "vlan": "154",
+        "pppoe_user": "home@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "2",
+        "sn": "ZTEGD01870C8",
+        "name": "BRG_HS_KS1",
+        "package": "UPto-20M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "3",
+        "sn": "ZTEGC2C529DE",
+        "name": "BRG_HS_OMAH",
+        "package": "UPto-20M",
+        "vlan": "30",
+        "pppoe_user": "popon@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "4",
+        "sn": "ZTEGC881ED50",
+        "name": "PBK_BUANA",
+        "package": "UPto-20M",
+        "vlan": "150",
+        "pppoe_user": "pbk_buana@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "5",
+        "sn": "ZTEGD0183CE8",
+        "name": "SM_LILIS",
+        "package": "UPto-4M",
+        "vlan": "154",
+        "pppoe_user": "sm_kentong@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "6",
+        "sn": "ZTEGD328D4D8",
+        "name": "SM_PENTUR",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_sadul@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "7",
+        "sn": "HWTC070D079F",
+        "name": "SM_LIA",
+        "package": "UPto-4M",
+        "vlan": "154",
+        "pppoe_user": "sm_maknyak@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "8",
+        "sn": "RTEGC706BEA9",
+        "name": "SM_KASENI",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_kaseni@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "9",
+        "sn": "ZTEGD0187238",
+        "name": "SM_YUYUN",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_yuyun@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "10",
+        "sn": "HWTC07015C5F",
+        "name": "SM_CAK SIS",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_caksis@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "11",
+        "sn": "CMHI260218F6",
+        "name": "PBK_CAKHAN",
+        "package": "UPto-10M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "12",
+        "sn": "ZTEGD0182888",
+        "name": "LK_AHMADI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_ahmadi@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "13",
+        "sn": "ZTEGD4286148",
+        "name": "LK_YONO",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_yono@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "14",
+        "sn": "ZTEGD228A1E8",
+        "name": "SM_PETER",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_peter@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "15",
+        "sn": "ZTEGD018AB78",
+        "name": "BRG_SM_MASJID",
+        "package": "UPto-15M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "16",
+        "sn": "ZTEGC8A0C10D",
+        "name": "BRG_SM_TENGAH",
+        "package": "UPto-10M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "17",
+        "sn": "ZTEGC04444EC",
+        "name": "PBK_BUAS",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "pbk_buas@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "18",
+        "sn": "ZTEGD1662C8A",
+        "name": "BRG PBK",
+        "package": "UPto-50M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "19",
+        "sn": "ZTEGCB06CD28",
+        "name": "LK_PAIJEM",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "paijem@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "20",
+        "sn": "ZTEGCBD8F2E4",
+        "name": "LK_YAIHUDI",
+        "package": "UPto-20M",
+        "vlan": "150",
+        "pppoe_user": "lk_yaihudi@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "21",
+        "sn": "XPON00000001",
+        "name": "LK_VINA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_vina@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "22",
+        "sn": "HWTC5C235BAA",
+        "name": "BRG HS KWL 03",
+        "package": "UPto-15M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "23",
+        "sn": "ZTEGD0180EA8",
+        "name": "PBK_MUJI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "pbk_muji@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "25",
+        "sn": "CIOT090553F0",
+        "name": "LK_RIMA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_rima@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "26",
+        "sn": "HWTC0AF131AC",
+        "name": "SM_MAIN",
+        "package": "UPto-4M",
+        "vlan": "154"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "27",
+        "sn": "HWTCECA9B4AA",
+        "name": "SM_MUHAYAT",
+        "package": "UPto-4M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "28",
+        "sn": "HWTC259C4CA8",
+        "name": "BRG HS PERUM",
+        "package": "UPto-30M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "29",
+        "sn": "ZTEGCFD47E02",
+        "name": "PERUM_MEISYA",
+        "package": "UPto-4M",
+        "vlan": "154",
+        "pppoe_user": "meysa@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "30",
+        "sn": "ZTEGD164E871",
+        "name": "LK_SHOLIHA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_sholiha@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "31",
+        "sn": "ZTEGCBD91401",
+        "name": "PBK_YULIATI",
+        "package": "UPto-20M",
+        "vlan": "150",
+        "pppoe_user": "pbk_yuliati@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "32",
+        "sn": "HWTC070D114F",
+        "name": "LK_ANAM",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "lk_anam@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "33",
+        "sn": "ZTEGD2288AA8",
+        "name": "SM_ADIT",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "adit@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "34",
+        "sn": "ZTEGC8A0AD00",
+        "name": "BRG KSB 03",
+        "package": "UPto-30M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "35",
+        "sn": "ZTEGCE52BA34",
+        "name": "SM_LUT",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "bidin@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "36",
+        "sn": "ZTEGD2288D38",
+        "name": "SM_CAK USMAN",
+        "package": "UPto-5M",
+        "vlan": "154",
+        "pppoe_user": "cakusman@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "37",
+        "sn": "CIOT09074A10",
+        "name": "PBK_MAK_LEHA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "makleha@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "38",
+        "sn": "ZTEGD32894E8",
+        "name": "LK_AYU",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_ayu@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "39",
+        "sn": "RTEGC7037CA6",
+        "name": "PERUM_KOMPLING",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "perum_kompling@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "40",
+        "sn": "ZTEGCAAD4E49",
+        "name": "SM_ZAKIYAH",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_zakiyah@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "41",
+        "sn": "RTEGC7036457",
+        "name": "LK_RISKA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_riska@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "42",
+        "sn": "ZTEGC2C52C49",
+        "name": "LK_ZULLAIKA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_zullaika@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "43",
+        "sn": "ZTEGC6643019",
+        "name": "SM_UMIKMUS",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_umikmus@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "44",
+        "sn": "ZTEGD1663111",
+        "name": "PBK_TONI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "pbk_toni@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "45",
+        "sn": "ZTEGC038F604",
+        "name": "LK_VIVI",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "lk_vivi@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "46",
+        "sn": "ZTEGC1D6ECF5",
+        "name": "LK_HASAN",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_hasan@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "47",
+        "sn": "ZTEGC1DABC1B",
+        "name": "SM_FATHONI",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_fathoni@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "48",
+        "sn": "ZTEGC0415750",
+        "name": "PBK_ASAD",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "pbk_asad@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "49",
+        "sn": "ZTEGC51C21DE",
+        "name": "PERUM_NURUL",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "perum_nurul@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "50",
+        "sn": "ZTEGC0E032E1",
+        "name": "LK_YASUIN",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "lk_yasuin@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "51",
+        "sn": "ZTEGD1D94207",
+        "name": "PERUM_DIAN",
+        "package": "UPto-5M",
+        "vlan": "154",
+        "pppoe_user": "sm_dian@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "52",
+        "sn": "ZTEGC51C38FD",
+        "name": "SM_MBAKNUR",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_mbaknur@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "53",
+        "sn": "ZTEGC914A7B0",
+        "name": "LK_WASIS",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_wasis@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "54",
+        "sn": "ZTEGCE57FAC8",
+        "name": "SM_TAKIM",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_taqim@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "55",
+        "sn": "ZTEGCD1D12B6",
+        "name": "LK_LIHA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_liha@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "56",
+        "sn": "ZTEGD0180E28",
+        "name": "PERUM_RIZKI",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "perum_rizki@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "57",
+        "sn": "ZTEGCAAEA67A",
+        "name": "LK_SALIMA",
+        "package": "UPto-10M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "58",
+        "sn": "ZTEGC1CB4B98",
+        "name": "PBK_CHUSNUL",
+        "package": "UPto-20M",
+        "vlan": "150",
+        "pppoe_user": "pbk_chusnul@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "59",
+        "sn": "ZTEGCE7E3E03",
+        "name": "SM_ZIQIN",
+        "package": "UPto-10M",
+        "vlan": "154",
+        "pppoe_user": "sm_ziqin@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "60",
+        "sn": "CMDCB128464E",
+        "name": "SM_YUDIS",
+        "package": "UPto-5M",
+        "vlan": "154"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "61",
+        "sn": "ZTEGD1C882CB",
+        "name": "PBK_ANWAR",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "pbk_anwar@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "62",
+        "sn": "ZTEGC8A0D30C",
+        "name": "BRG_SUGIK",
+        "package": "UPto-4M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "63",
+        "sn": "CMDCB12FD01A",
+        "name": "LK_SITI",
+        "package": "UPto-10M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "64",
+        "sn": "ZTEGD16629A4",
+        "name": "LK_HARSON",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "lk_harson@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "65",
+        "sn": "CMDCB12C3E49",
+        "name": "SM_ROHMAN",
+        "package": "UPto-10M",
+        "vlan": "154"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "74",
+        "sn": "HWTCF926BBA2",
+        "name": "LK_SAFII",
+        "package": "UPto-5M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "80",
+        "sn": "ZICGA6A818B9",
+        "name": "PERUM_EKO",
+        "package": "UPto-5M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "81",
+        "sn": "ZICG153D800E",
+        "name": "SM_MILA",
+        "package": "UPto-5M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "86",
+        "sn": "ZTEGC826A5F9",
+        "name": "LK_FARiCHA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_faricha@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "88",
+        "sn": "ZTEGC039B1CB",
+        "name": "LK_DIMAS",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "lk_dimas@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "92",
+        "sn": "MHEGCCCC810B",
+        "name": "LK_TOMI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lk_tomi@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "98",
+        "sn": "ZTEGCD9D1997",
+        "name": "BRG_HS_KWL_LK",
+        "package": "UPto-50M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "99",
+        "sn": "ZXICFF1B84D8",
+        "name": "SM_MARWEK",
+        "package": "UPto-5M",
+        "vlan": "154",
+        "pppoe_user": "sm_marwek@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "100",
+        "sn": "ZXICFF2BABD8",
+        "name": "SM_ATUL",
+        "package": "UPto-5M",
+        "vlan": "154",
+        "pppoe_user": "sm_atul@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "104",
+        "sn": "ZTEGD099B8A8",
+        "name": "BRG PERUM KWL",
+        "package": "UPto-30M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "105",
+        "sn": "ZXICFF0FA5B8",
+        "name": "CAK TRIS",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "caktris@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "108",
+        "sn": "ZTEGD0181B78",
+        "name": "LK_MUAFI",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "muafi@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "109",
+        "sn": "ZTEGD0181808",
+        "name": "LK_KAMSI",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kamsi@cyber.net"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "110",
+        "sn": "ZTEGD0182798",
+        "name": "LK_ARIF",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "arip@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "1",
+        "sn": "ZXICFF1F4E28",
+        "name": "SGR_JIHAN",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "sgr_jihan@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "2",
+        "sn": "ZTEGC0452EBF",
+        "name": "SGR_WILDAN",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_wildan@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "3",
+        "sn": "CIOT1023D60C",
+        "name": "TJS_UMAR",
+        "package": "UPto-10M",
+        "vlan": "151"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "4",
+        "sn": "ZTEGCBDBEBFC",
+        "name": "TJS_LILIK",
+        "package": "UPto-4M",
+        "vlan": "151",
+        "pppoe_user": "tjs_lilik@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "5",
+        "sn": "ZTEGCFD44D08",
+        "name": "SGR_LEANY",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "sgr_leany@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "6",
+        "sn": "ZTEGD0181978",
+        "name": "TJS_ALFARAS",
+        "package": "UPto-6M",
+        "vlan": "151",
+        "pppoe_user": "tjs_alfaras@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "7",
+        "sn": "ZTEGD4A44040",
+        "name": "TJS_NOTARIS",
+        "package": "UPto-50M",
+        "vlan": "151",
+        "pppoe_user": "tjs_notaris@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "8",
+        "sn": "ZTEGD018F278",
+        "name": "TJS_YASIR",
+        "package": "UPto-6M",
+        "vlan": "151",
+        "pppoe_user": "tjs_yasir@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "9",
+        "sn": "HWTC070DA56F",
+        "name": "BRG_HS_SGR",
+        "package": "UPto-20M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "10",
+        "sn": "ZTEGD0180488",
+        "name": "TJS_DEVI",
+        "package": "UPto-6M",
+        "vlan": "151",
+        "pppoe_user": "tjs_devi@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "11",
+        "sn": "ZTEGD0187038",
+        "name": "TJS_WAFA",
+        "package": "UPto-6M",
+        "vlan": "151",
+        "pppoe_user": "tjs_wafa@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "12",
+        "sn": "ZTEGD328A1A8",
+        "name": "SGR_H.LUKMAN",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_lukman@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "13",
+        "sn": "HWTCAC1791AC",
+        "name": "TJS_NENENG",
+        "package": "UPto-4M",
+        "vlan": "151"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "14",
+        "sn": "ZTEGC0E9EFA4",
+        "name": "SGR_PUTRA",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_putra@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "15",
+        "sn": "HWTC07015A7F",
+        "name": "TJS_WILDAN",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_wildan@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "16",
+        "sn": "ZTEGC8A08CB9",
+        "name": "BRG_TJS 01",
+        "package": "D-100M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "17",
+        "sn": "RTEGC70359F0",
+        "name": "BRG + HS + TJS 02",
+        "package": "D-100M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "18",
+        "sn": "ZTEGD42876D8",
+        "name": "TJS_ROFII",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_rofii@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "19",
+        "sn": "ZTEGD3289568",
+        "name": "TJS_ZAINUL",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_zainul@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "20",
+        "sn": "ZTEGD228C668",
+        "name": "TJS_MAYA",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "maya@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "21",
+        "sn": "ZTEGD228CBC8",
+        "name": "TJS_AGUS",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_agus@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "22",
+        "sn": "ZTEGD328B048",
+        "name": "TJS_TONI",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "toni@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "23",
+        "sn": "ZTEGD328D558",
+        "name": "TJS_ENDRO",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "endro@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "24",
+        "sn": "HWTC070D7E0F",
+        "name": "TJS_NUKMAN",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_nukman@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "25",
+        "sn": "ZTEGD01825D8",
+        "name": "TJS_PAKARI",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_pakari@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "26",
+        "sn": "RTEGC70691B5",
+        "name": "SGR_ARIE",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_arie@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "27",
+        "sn": "ZTEGCB06F209",
+        "name": "SGR_PRAMONO",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_pramono@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "28",
+        "sn": "ZTEGC8A0643B",
+        "name": "BRG_ROHMATUL",
+        "package": "UPto-10M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "29",
+        "sn": "ZTEGC9033DCD",
+        "name": "SGR_RIPIN",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_ripin@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "30",
+        "sn": "ZTEGD4A4724A",
+        "name": "TJS_IOU",
+        "package": "UPto-50M",
+        "vlan": "151",
+        "pppoe_user": "tjs_iou@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "31",
+        "sn": "RTEGC7035EDB",
+        "name": "TJS_WIWIT",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_wiwit@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "32",
+        "sn": "RTEGCA958DAC",
+        "name": "TJS_YAYUK",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_yayuk@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "33",
+        "sn": "ZTEGCBDBB280",
+        "name": "TJS_NING",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_ning@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "34",
+        "sn": "ZTEGC0DC5129",
+        "name": "TJS_WAHAB",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_wahab@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "35",
+        "sn": "CMDC10C03C97",
+        "name": "TJS_KAJIYUL",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_kajiyul@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "36",
+        "sn": "ZTEGC7B5A001",
+        "name": "SGR_SATURI",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_saturi@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "37",
+        "sn": "MHEGCCC667E9",
+        "name": "TJS_JAZULI",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_jazuli@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "38",
+        "sn": "ZTEGC1D6FB0B",
+        "name": "SGR_SRIWAHYUNI",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_sriwahyuni@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "39",
+        "sn": "ZTEGC04511C2",
+        "name": "TJS_UUN",
+        "package": "UPto-4M",
+        "vlan": "151",
+        "pppoe_user": "tjs_uun@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "40",
+        "sn": "ZTEGD4AFA20F",
+        "name": "TJS_MBG",
+        "package": "UPto-20M",
+        "vlan": "151",
+        "pppoe_user": "tjs_mbg@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "41",
+        "sn": "ZTEGC04125E3",
+        "name": "BRG_KHOLIK",
+        "package": "UPto-10M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "42",
+        "sn": "ZTEGD1662443",
+        "name": "TJS_FAUL",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_faul@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "43",
+        "sn": "ZTEGCDFE5568",
+        "name": "TJS_BADRIYAH",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_badriyah@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "44",
+        "sn": "ZTEGC0E02AAD",
+        "name": "TJS_ALMIRA",
+        "package": "UPto-4M",
+        "vlan": "151",
+        "pppoe_user": "tjs_almira@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "45",
+        "sn": "ZTEGD2288BB8",
+        "name": "TJS_HENI",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_heni@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "46",
+        "sn": "HWTC754EFD9E",
+        "name": "TJS_HADI",
+        "package": "UPto-10M",
+        "vlan": "151"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "47",
+        "sn": "ZTEGC8A0A053",
+        "name": "BRG_ISWANDI",
+        "package": "UPto-10M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "48",
+        "sn": "CMDCB128364A",
+        "name": "TJS_SULIS",
+        "package": "UPto-10M",
+        "vlan": "151"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "55",
+        "sn": "ZTEGC8A06EDB",
+        "name": "BRG_TJS_02",
+        "package": "D-100M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "62",
+        "sn": "HWTCE42C29AA",
+        "name": "TJS_AMINAH",
+        "package": "UPto-6M",
+        "vlan": "151"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "65",
+        "sn": "ZTEGD1C84B53",
+        "name": "KRBT_FAISOL",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "krbt_faisol@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "67",
+        "sn": "ZTEGD4AF6582",
+        "name": "TJS_FAIZ",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_faiz@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "68",
+        "sn": "ZTEGD1D93425",
+        "name": "KRBT_WIDA",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "krbt_wida@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "69",
+        "sn": "CMDCB1235E43",
+        "name": "TJS_DINA",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_dina@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "73",
+        "sn": "ZTEGCCA3F62A",
+        "name": "KRBT_VIRDIANSYAH",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "krbt_virdiansyah@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "77",
+        "sn": "ZTEGCA3E1291",
+        "name": "TJS_ALFNANI",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_alfanani@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "78",
+        "sn": "HWTC5C16A4AA",
+        "name": "TJS_ITA",
+        "package": "UPto-5M",
+        "vlan": "151"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "85",
+        "sn": "ZTEGD4A4786D",
+        "name": "TJS_DEWO",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "tjs_dewo@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "87",
+        "sn": "ZTEGD1661FDA",
+        "name": "TJS_SUHAMI",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_suhami@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "89",
+        "sn": "RTEGCA95ADA9",
+        "name": "TJS_ABD MALIK",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_abdmalik@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "90",
+        "sn": "RTEGCA95B885",
+        "name": "TJS_AZIZ",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_aziz@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "93",
+        "sn": "ZTEGD1DFA0C7",
+        "name": "TJS_SAID",
+        "package": "UPto-5M",
+        "vlan": "151",
+        "pppoe_user": "tjs_said@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "101",
+        "sn": "RTEGCA95AE00",
+        "name": "SGR_ESTO",
+        "package": "UPto-25M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "107",
+        "sn": "RTEGC706AA05",
+        "name": "DENIS",
+        "package": "UPto-10M",
+        "vlan": "151",
+        "pppoe_user": "sgr_denis@cyber.net"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "112",
+        "sn": "ZTEGD228A688",
+        "name": "TJS_ARI",
+        "package": "UPto-6M",
+        "vlan": "151",
+        "pppoe_user": "tjs_ari@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "1",
+        "sn": "ZTEGD1D94223",
+        "name": "KD_TUMARI",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kd_tumari@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "2",
+        "sn": "ZTEGD0186AD8",
+        "name": "KT-SAM",
+        "package": "UPto-6M",
+        "vlan": "150",
+        "pppoe_user": "kt_sam@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "3",
+        "sn": "ZTEGD4283BF8",
+        "name": "KD_BUNISAK",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "bunisak@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "4",
+        "sn": "ZTEGD42812B8",
+        "name": "KD_LIA",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "lia@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "5",
+        "sn": "ZTEGC1D82D93",
+        "name": "KD_KHALID",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "khalid@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "6",
+        "sn": "ZTEGC8A07B55",
+        "name": "BRG_KWL 01",
+        "package": "UPto-50M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "7",
+        "sn": "ZTEGD4281FE8",
+        "name": "KD_RIPI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_ripi@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "8",
+        "sn": "ZTEGD0181608",
+        "name": "KD_EKO",
+        "package": "UPto-6M",
+        "vlan": "150",
+        "pppoe_user": "kd_eko@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "9",
+        "sn": "HWTC07015B6F",
+        "name": "KT_SOPI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "sopi@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "10",
+        "sn": "ZTEGC8A0C5BA",
+        "name": "BRG_KWL 02",
+        "package": "UPto-20M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "11",
+        "sn": "ZTEGD0833F91",
+        "name": "KWL_FAUZI",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "kwl_burek@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "12",
+        "sn": "HWTC070D1CCF",
+        "name": "KT_ZIDAN",
+        "package": "UPto-15M",
+        "vlan": "150",
+        "pppoe_user": "zidanetan@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "13",
+        "sn": "ZTEGC0DB415D",
+        "name": "BRG HS SERVER",
+        "package": "UPto-30M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "14",
+        "sn": "ZTEGD32896B8",
+        "name": "KD_KAJI HOL",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_kajihol@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "15",
+        "sn": "RTEGC70626E1",
+        "name": "BRG_MODEN",
+        "package": "UPto-10M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "16",
+        "sn": "RTEGC706BE5D",
+        "name": "KT_AAN",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "aan@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "17",
+        "sn": "ZTEG0301A7D0",
+        "name": "KD_SUPRIANTO",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_suprianto@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "18",
+        "sn": "ZTEGC1F18605",
+        "name": "KT_SULTONI",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kt_sultoni@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "19",
+        "sn": "CMDCB12E2223",
+        "name": "KT_JIHAN",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kt_jihan@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "20",
+        "sn": "ZTEGC2C54396",
+        "name": "KT_HASRI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kt_hasri@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "21",
+        "sn": "ZTEGC2C5353D",
+        "name": "BRG HS LAPANGAN",
+        "package": "UPto-20M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "22",
+        "sn": "ZTEGC0E8AB7D",
+        "name": "KD_USMAN",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kd_usman@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "23",
+        "sn": "ZTEGC0CB6886",
+        "name": "KD_BUSUNIK",
+        "package": "UPto-20M",
+        "vlan": "150",
+        "pppoe_user": "kd_busunik@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "24",
+        "sn": "CIOT0A34B8F8",
+        "name": "KD_SUNARSIH",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_sunarsih@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "25",
+        "sn": "ZTEGC2C5365C",
+        "name": "KD_AFIF",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_afif@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "26",
+        "sn": "ZTEGC9456BD6",
+        "name": "KT_ELIS",
+        "package": "UPto-5M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "27",
+        "sn": "CIOT18DF6E08",
+        "name": "KD_ULIL",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_ulil@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "28",
+        "sn": "ZTEGCE56BBF8",
+        "name": "KT_ANIK",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kt_anik@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "29",
+        "sn": "ZTEGD4281BC8",
+        "name": "KT_TOMI",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "kt_tomi@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "30",
+        "sn": "ZTEGD0181A78",
+        "name": "KD_ANIK",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_anik@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "31",
+        "sn": "ZTEGC1DACD65",
+        "name": "KD_MBAHRI",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "kd_mbahri@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "32",
+        "sn": "ZTEGD166138B",
+        "name": "KD_SAIIN",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kd_saiin@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "33",
+        "sn": "ZTEGCAFE8781",
+        "name": "BRG_DIKA",
+        "package": "UPto-10M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "34",
+        "sn": "ZTEGCC875A1D",
+        "name": "KD_MBAHKUN",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_mbahkun@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "35",
+        "sn": "ZTEGC8175A00",
+        "name": "KD_GOJING",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_gojing@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "36",
+        "sn": "ZTEGC8051F51",
+        "name": "KD_LISWATI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_liswati@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "37",
+        "sn": "CIOT217A8F40",
+        "name": "KD_SUKARI",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kd_sukari@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "38",
+        "sn": "CIOT0905A5F0",
+        "name": "KT_IMAM",
+        "package": "UPto-10M",
+        "vlan": "150",
+        "pppoe_user": "kt_imam@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "39",
+        "sn": "ZTEGD1661AAC",
+        "name": "KD_HUSNUL",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kd-husnul@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "40",
+        "sn": "CMDCB121EB1E",
+        "name": "KD_HANAN",
+        "package": "UPto-10M",
+        "vlan": "150"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "45",
+        "sn": "ZTEGC8A085B0",
+        "name": "BRG_KWL_04",
+        "package": "D-200M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "47",
+        "sn": "ZTEGC8A0C32A",
+        "name": "BRG_KWL_06",
+        "package": "D-100M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "52",
+        "sn": "ZTEGD164F670",
+        "name": "ELSA",
+        "package": "UPto-4M",
+        "vlan": "150",
+        "pppoe_user": "elsa@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "71",
+        "sn": "ZTEGCE38EBCE",
+        "name": "KD_AHMAD",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kd_ahmad@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "75",
+        "sn": "ZTEGC1ED825A",
+        "name": "SAMSUDIN",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "samsudin@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "76",
+        "sn": "ZTEGD4A440F5",
+        "name": "KD_UDIN",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kd_udin@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "84",
+        "sn": "ZTEGD4A44086",
+        "name": "BRG HS KAMPUNG TENGAH",
+        "package": "UPto-50M",
+        "vlan": "30"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "91",
+        "sn": "ZTEGC676E70E",
+        "name": "ZIDAN",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "zidan@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "96",
+        "sn": "ZTEGD16501F4",
+        "name": "KT_ERVIN",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kt_ervin@cyber.net"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "106",
+        "sn": "ZXICFF1DBD68",
+        "name": "KT FUAD",
+        "package": "UPto-5M",
+        "vlan": "150",
+        "pppoe_user": "kt_fuad@cyber.net"
+    },
+]

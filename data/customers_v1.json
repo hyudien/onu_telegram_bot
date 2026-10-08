@@ -1,0 +1,2547 @@
+[
+    {
+        "pon": "1/1/1",
+        "onu_id": "1",
+        "sn": "HWTC070D11FF"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "2",
+        "sn": "ZTEGD4A45D7D"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "3",
+        "sn": "ZTEGD5D05DAB"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "4",
+        "sn": "CMDC10A9D5F1"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "5",
+        "sn": "ZTEGD1DF751A"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "6",
+        "sn": "ZTEGC8A0764B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "7",
+        "sn": "ZTEGD16500C0"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "8",
+        "sn": "ZTEGCFD454A0"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "9",
+        "sn": "ZTEGCE1AD53E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "10",
+        "sn": "ZTEGCBDF6026"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "11",
+        "sn": "ZTEGC853527F"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "12",
+        "sn": "ZTEGC8A081CC"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "13",
+        "sn": "RTEGC703154E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "14",
+        "sn": "RTEGC70B8810"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "15",
+        "sn": "HWTCF021FDA3"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "16",
+        "sn": "ZTEGC1D81F7F"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "17",
+        "sn": "ZTEGC8A061E3"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "18",
+        "sn": "ZTEGD1DF7A3F"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "19",
+        "sn": "ZTEGD16614F1"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "20",
+        "sn": "ZTEGC0DBCD94"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "21",
+        "sn": "ZTEGC674C5F2"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "22",
+        "sn": "ZTEGD1663380"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "23",
+        "sn": "ZTEGD07A916E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "24",
+        "sn": "HWTC070D34AF"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "25",
+        "sn": "ZTEGCC5C17D3"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "26",
+        "sn": "ZTEGCAFBBBA3"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "27",
+        "sn": "RTEGC7038E9F"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "28",
+        "sn": "ZTEGCDFDFA9B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "29",
+        "sn": "ZTEGC0B5814D"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "30",
+        "sn": "RTEGC705DB41"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "31",
+        "sn": "ZTEGD1C85989"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "32",
+        "sn": "ZTEGCFD47ADC"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "33",
+        "sn": "ZTEGD7725852"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "34",
+        "sn": "ZTEGC8A0B2B2"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "35",
+        "sn": "ZTEGD5D06AFF"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "36",
+        "sn": "ZTEGC0D4C309"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "37",
+        "sn": "ZTEGCB062C8B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "38",
+        "sn": "ZTEGC1E91215"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "39",
+        "sn": "ZTEGCB06E066"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "40",
+        "sn": "ZTEGC1E5FB2F"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "41",
+        "sn": "ZTEGCFD448DF"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "42",
+        "sn": "ZTEGD16618B8"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "43",
+        "sn": "RTEGC70267E6"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "44",
+        "sn": "RTEGC70B5800"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "45",
+        "sn": "ZTEGCEEF9B79"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "46",
+        "sn": "ZTEGD16611AC"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "47",
+        "sn": "ZTEGC85EB7F7"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "48",
+        "sn": "RTEGC703769B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "49",
+        "sn": "RTEGC703697A"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "50",
+        "sn": "ZTEGC8A0C70C"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "51",
+        "sn": "ZTEGCE4B1D7C"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "52",
+        "sn": "ZTEGD1D9338E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "53",
+        "sn": "ZTEGD164EF42"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "54",
+        "sn": "ZTEGC8A09394"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "55",
+        "sn": "ZTEGCE06FA45"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "56",
+        "sn": "ZTEGC1C122E5"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "57",
+        "sn": "ZTEGC0D4821A"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "58",
+        "sn": "ZTEGD1DF76F4"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "59",
+        "sn": "ZTEGD1D937E0"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "60",
+        "sn": "ZTEGD1DF720E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "61",
+        "sn": "ZTEGC9241D6F"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "62",
+        "sn": "ZTEGC8A0645A"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "63",
+        "sn": "ZTEGC8A0BA8B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "64",
+        "sn": "ZTEGC8A09DE7"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "65",
+        "sn": "ZTEGC18D1AC7"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "66",
+        "sn": "ZTEGD1DF6FCC"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "67",
+        "sn": "ZTEGC677B022"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "68",
+        "sn": "ZTEGD1663982"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "69",
+        "sn": "ZTEGCA91DDE6"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "70",
+        "sn": "ZTEGC0D4C492"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "71",
+        "sn": "ZTEGCAFE816C"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "72",
+        "sn": "ZTEGC1DB1C0A"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "73",
+        "sn": "ZTEGD4A4221B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "74",
+        "sn": "ZTEGCFD47F6B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "75",
+        "sn": "ZTEGC2C52965"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "76",
+        "sn": "ZTEGC0DB0DB3"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "77",
+        "sn": "ZTEGCAFE6272"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "78",
+        "sn": "ZTEGD4AF89F2"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "79",
+        "sn": "ZTEGC0B7A948"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "80",
+        "sn": "ZTEGC1DAAFEF"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "81",
+        "sn": "ZTEGC8A0896C"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "82",
+        "sn": "ZTEGC1DA9E5E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "83",
+        "sn": "ZTEGC0B79B72"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "84",
+        "sn": "ZTEGC1C3478E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "85",
+        "sn": "ZTEGCAFE7FDF"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "86",
+        "sn": "ZTEGC817405C"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "87",
+        "sn": "ZICG27714CD3"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "88",
+        "sn": "ZTEGD5D04AE8"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "89",
+        "sn": "ZTEGD7725D70"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "90",
+        "sn": "ZTEGC823870E"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "91",
+        "sn": "ZTEGC8174B61"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "92",
+        "sn": "ZTEGD158C1EA"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "93",
+        "sn": "ZTEGD1DF93EE"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "94",
+        "sn": "ZICG27657956"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "95",
+        "sn": "ZTEGD1DF705A"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "96",
+        "sn": "ZTEGD1650072"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "97",
+        "sn": "PTEGC70E6B80"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "98",
+        "sn": "HWTC987567AB"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "99",
+        "sn": "HWTCDF6757D8"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "100",
+        "sn": "CIOT09C84980"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "101",
+        "sn": "CMDCB11B6816"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "102",
+        "sn": "HWTCDF675758"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "103",
+        "sn": "ZTEGC8A0ABED"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "104",
+        "sn": "ZTEGD774F75B"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "105",
+        "sn": "ZTEGD1D96373"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "106",
+        "sn": "HWTC070D981F"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "107",
+        "sn": "RTEGC7037854"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "108",
+        "sn": "ZTEGD4AF5184"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "109",
+        "sn": "RTEGC70382AE"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "110",
+        "sn": "RTEGC70366C1"
+    },
+    {
+        "pon": "1/1/1",
+        "onu_id": "111",
+        "sn": "ZTEGD16614C0"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "1",
+        "sn": "ZTEGD7751866"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "2",
+        "sn": "ZTEGD775B4D7"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "3",
+        "sn": "HWTCF49535AB"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "4",
+        "sn": "RTEGC1016BEE"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "5",
+        "sn": "RTEGC706A2B6"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "6",
+        "sn": "ZTEGC0E5453C"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "7",
+        "sn": "HWTC0701518F"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "8",
+        "sn": "ZTEGCC5C77E6"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "9",
+        "sn": "RTEGC70469DE"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "10",
+        "sn": "HWTC070D7DFF"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "11",
+        "sn": "ZTEGCA2479A5"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "12",
+        "sn": "ZTEGCD1818FD"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "13",
+        "sn": "RTEGC70BDEC2"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "14",
+        "sn": "RTEGC70325DD"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "15",
+        "sn": "RTEGC704012D"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "16",
+        "sn": "RTEGC703ABB8"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "17",
+        "sn": "ZTEGCA22FE75"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "18",
+        "sn": "RTEGC7039134"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "19",
+        "sn": "ZTEGC1D79995"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "20",
+        "sn": "ZTEGC1D8CD7C"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "21",
+        "sn": "ZTEGC0DF1CC7"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "22",
+        "sn": "CIOT22C52BF8"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "23",
+        "sn": "ZTEGD1C8937B"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "24",
+        "sn": "ZTEGC9E3B4E4"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "25",
+        "sn": "ZTEGC0B92963"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "26",
+        "sn": "ZTEGC1CE37AE"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "27",
+        "sn": "ZTEGC0BCD79E"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "28",
+        "sn": "ZTEGC1C69C92"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "29",
+        "sn": "ZTEGC1CA6DC0"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "30",
+        "sn": "ZTEGD4A467EB"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "31",
+        "sn": "ZTEGCA91A823"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "32",
+        "sn": "ZTEGC0DB65A5"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "33",
+        "sn": "ZTEGC8047B19"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "34",
+        "sn": "ZTEGC0434A52"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "35",
+        "sn": "ZTEGC8044982"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "36",
+        "sn": "ZICG2785C666"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "37",
+        "sn": "ZTEGCFD456E0"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "38",
+        "sn": "ZTEGC0B79CD8"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "39",
+        "sn": "ZTEGC92195E5"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "40",
+        "sn": "ZTEGC922BDF9"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "41",
+        "sn": "ZTEGC2C522CC"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "42",
+        "sn": "CIOT0A2C4838"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "43",
+        "sn": "CIOT123EA9A8"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "44",
+        "sn": "ZTEGD1D941BE"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "45",
+        "sn": "ZTEGCDE88636"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "46",
+        "sn": "CIOT11BE1530"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "47",
+        "sn": "ZTEGC8A0CEF0"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "48",
+        "sn": "ZTEGD1C868E0"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "49",
+        "sn": "ZTEGD1D95F83"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "50",
+        "sn": "ZICG276DF8DB"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "51",
+        "sn": "ZTEGC0EA2BE6"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "52",
+        "sn": "CIOT0A2CB5A0"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "53",
+        "sn": "CIOT168C6180"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "54",
+        "sn": "ZTEGC1C25D57"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "55",
+        "sn": "HWTC15CA41AC"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "56",
+        "sn": "ZTEGC881F41B"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "57",
+        "sn": "ZICG27696561"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "58",
+        "sn": "HWTCB436AC9D"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "59",
+        "sn": "CIOT22291CD8"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "60",
+        "sn": "ZTEGC63003D6"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "61",
+        "sn": "ZTEGD1C87BB3"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "62",
+        "sn": "ZTEGD1C84C9C"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "63",
+        "sn": "RTEGC1012C27"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "64",
+        "sn": "RTEGC7032844"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "69",
+        "sn": "ZTEGC1C97D73"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "76",
+        "sn": "ZTEGD5D04DE3"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "91",
+        "sn": "ZTEGD4AF7372"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "98",
+        "sn": "ZTEGD1D94DB8"
+    },
+    {
+        "pon": "1/1/3",
+        "onu_id": "102",
+        "sn": "HWTC070D3CFF"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "1",
+        "sn": "ZTEGD10B5DFF"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "2",
+        "sn": "ZTEGC8A0AFF1"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "3",
+        "sn": "RTEGC703D800"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "4",
+        "sn": "ZTEGC8517E63"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "5",
+        "sn": "ZTEGC8A0AA93"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "6",
+        "sn": "HWTC070D126F"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "7",
+        "sn": "HWTC9AC330AB"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "8",
+        "sn": "HWTCDF6758B8"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "9",
+        "sn": "ZTEGD7728657"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "10",
+        "sn": "ZTEGD7725D76"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "11",
+        "sn": "ZTEGD1D95745"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "12",
+        "sn": "HWTC070D3B0F"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "13",
+        "sn": "HWTC070D8E8F"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "14",
+        "sn": "ZTEGCE05E182"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "15",
+        "sn": "RTEGC70B5E70"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "16",
+        "sn": "HWTC070D986F"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "17",
+        "sn": "ZTEGC8A08E45"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "18",
+        "sn": "ZTEGC0DB4AB8"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "19",
+        "sn": "ZTEGCC94541F"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "20",
+        "sn": "HWTC9ABA40AB"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "21",
+        "sn": "ZTEGCEFE89A7"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "22",
+        "sn": "RTEGC70390A9"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "23",
+        "sn": "ZTEGC4564A35"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "24",
+        "sn": "RTEGC70326F2"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "25",
+        "sn": "ZTEGCFD485D0"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "26",
+        "sn": "RTEGC703B78E"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "27",
+        "sn": "RTEGC10137B7"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "28",
+        "sn": "ZTEGD1661423"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "29",
+        "sn": "ZTEGD1662D00"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "30",
+        "sn": "ZTEGC0A7974D"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "31",
+        "sn": "ZTEGC2C52B36"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "32",
+        "sn": "ZTEGC0B9381B"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "33",
+        "sn": "ZTEGD1C87253"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "34",
+        "sn": "ZTEGD4A42A3D"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "35",
+        "sn": "ZTEGC1CAAA78"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "36",
+        "sn": "ZTEGD775134D"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "37",
+        "sn": "ZTEGC6302328"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "38",
+        "sn": "ZTEGCFD47C2E"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "39",
+        "sn": "RTEGC1016BEE"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "40",
+        "sn": "ZICG27818332"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "41",
+        "sn": "HWTC0701604F"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "42",
+        "sn": "HWTC03044F30"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "43",
+        "sn": "ZTEGD1C85A63"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "44",
+        "sn": "ZTEGCAFE7E44"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "45",
+        "sn": "ZTEGD5D83C9E"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "46",
+        "sn": "HWTCDF618E30"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "47",
+        "sn": "ZTEGC9E12EDC"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "48",
+        "sn": "HWTC188E2FA8"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "49",
+        "sn": "HWTCA8DB59AB"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "50",
+        "sn": "ZTEGC86BD8D6"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "51",
+        "sn": "ZTEGC86099DB"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "52",
+        "sn": "ZTEGC82382A9"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "53",
+        "sn": "ZICG277CA9E6"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "54",
+        "sn": "HWTC33F4A3AC"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "55",
+        "sn": "ZTEGD5D83CA3"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "56",
+        "sn": "ZTEGD16634DF"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "57",
+        "sn": "ZTEGC6309023"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "58",
+        "sn": "ZTEGCD9D4DBD"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "59",
+        "sn": "ZTEGD5D82CFF"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "60",
+        "sn": "RTEGC601F372"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "61",
+        "sn": "ZTEGC456342B"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "65",
+        "sn": "ZTEGD1D93AB0"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "71",
+        "sn": "ZTEGCFD43C5C"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "75",
+        "sn": "ZTEGD4A44183"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "77",
+        "sn": "ZTEGD4A467C8"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "78",
+        "sn": "ZTEGD7759EEC"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "79",
+        "sn": "ZTEGD1D938C0"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "80",
+        "sn": "ZTEGD4AFC93D"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "81",
+        "sn": "ZTEGD77242C0"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "83",
+        "sn": "RTEGC706804A"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "85",
+        "sn": "ZTEGCFD44DAE"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "86",
+        "sn": "ZTEGD5D04AE0"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "92",
+        "sn": "ZTEGD5D04AE7"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "96",
+        "sn": "ZTEGCFD479B2"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "99",
+        "sn": "ZTEGD1D957B6"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "101",
+        "sn": "ZTEGCFD45BEA"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "103",
+        "sn": "HWTC070D3C2F"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "105",
+        "sn": "ZTEGD7756AC4"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "106",
+        "sn": "ZTEGD774E798"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "107",
+        "sn": "ZTEGD1C8830A"
+    },
+    {
+        "pon": "1/1/4",
+        "onu_id": "109",
+        "sn": "ZTEGD1D95EA9"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "1",
+        "sn": "ZTEGD0182538"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "2",
+        "sn": "ZTEGD0182548"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "3",
+        "sn": "ZTEGCD9D3D21"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "4",
+        "sn": "ZTEGCFD4581E"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "5",
+        "sn": "ZTEGCDFDFFF0"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "6",
+        "sn": "ZTEGD4AFA1AA"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "7",
+        "sn": "ZTEGCFD469D7"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "8",
+        "sn": "ZTEGD1C86DE0"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "9",
+        "sn": "ZTEGC8A0CE77"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "10",
+        "sn": "ZTEGCCA7F80E"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "11",
+        "sn": "ZTEGC0E79B06"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "13",
+        "sn": "ZTEGD228D768"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "14",
+        "sn": "CMDCB12B30E2"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "15",
+        "sn": "ZTEGD1D93A19"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "16",
+        "sn": "ZTEGD2281568"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "17",
+        "sn": "CIOT10E39964"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "18",
+        "sn": "ZTEGD4284F78"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "19",
+        "sn": "ZTEGC0AEBEE7"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "20",
+        "sn": "ZTEGC8A0A930"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "21",
+        "sn": "ZXICFF1C4628"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "22",
+        "sn": "CIOT0905F3E0"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "23",
+        "sn": "ZTEGC877CFB0"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "24",
+        "sn": "ZTEGC8A0641C"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "25",
+        "sn": "RTEGC70379B1"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "26",
+        "sn": "ZTEGD328F4F8"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "28",
+        "sn": "ZTEGD01869C8"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "29",
+        "sn": "ZTEGD2289B28"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "30",
+        "sn": "ZICG29838CDB"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "31",
+        "sn": "ZTEGC1D8C21E"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "32",
+        "sn": "ZTEGC1EC149F"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "33",
+        "sn": "RTEGC70B6B62"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "34",
+        "sn": "ZTEGC18B5669"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "35",
+        "sn": "ZTEGC8239B6C"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "36",
+        "sn": "RTEGC703D848"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "37",
+        "sn": "ZTEGD018F2D8"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "38",
+        "sn": "ZTEGC0416D07"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "39",
+        "sn": "ZTEGC0CBABAB"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "40",
+        "sn": "ZTEGC0E8A895"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "41",
+        "sn": "ZTEGCAFEA2D5"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "42",
+        "sn": "ZTEGC039ED28"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "43",
+        "sn": "ZTEGC81769D7"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "44",
+        "sn": "ZTEGC073F76A"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "45",
+        "sn": "ZTEGC0E867AC"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "46",
+        "sn": "ZTEGC045EA73"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "47",
+        "sn": "ZTEGC0E08B6B"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "48",
+        "sn": "ZTEGD4A4374C"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "49",
+        "sn": "ZTEGC0A5A65E"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "50",
+        "sn": "ZTEGC0C2829D"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "51",
+        "sn": "ZTEGC0818F3E"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "52",
+        "sn": "MHEGCCCCDB5A"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "53",
+        "sn": "CMDCB1214C65"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "54",
+        "sn": "ZTEGD4AFC82F"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "55",
+        "sn": "CMDCB122F2CD"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "56",
+        "sn": "CMDCB12DE604"
+    },
+    {
+        "pon": "1/1/5",
+        "onu_id": "57",
+        "sn": "CMDCB123C956"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "1",
+        "sn": "ZTEGD03E3B79"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "2",
+        "sn": "ZTEGD01870C8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "3",
+        "sn": "ZTEGC2C529DE"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "4",
+        "sn": "ZTEGC881ED50"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "5",
+        "sn": "ZTEGD0183CE8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "6",
+        "sn": "ZTEGD328D4D8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "7",
+        "sn": "HWTC070D079F"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "8",
+        "sn": "RTEGC706BEA9"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "9",
+        "sn": "ZTEGD0187238"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "10",
+        "sn": "HWTC07015C5F"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "11",
+        "sn": "CMHI260218F6"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "12",
+        "sn": "ZTEGD0182888"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "13",
+        "sn": "ZTEGD4286148"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "14",
+        "sn": "ZTEGD228A1E8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "15",
+        "sn": "ZTEGD018AB78"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "16",
+        "sn": "ZTEGC8A0C10D"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "17",
+        "sn": "ZTEGC04444EC"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "18",
+        "sn": "ZTEGD1662C8A"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "19",
+        "sn": "ZTEGCB06CD28"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "20",
+        "sn": "ZTEGCBD8F2E4"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "21",
+        "sn": "XPON00000001"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "22",
+        "sn": "HWTC5C235BAA"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "23",
+        "sn": "ZTEGD0180EA8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "25",
+        "sn": "CIOT090553F0"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "26",
+        "sn": "HWTC0AF131AC"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "27",
+        "sn": "HWTCECA9B4AA"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "28",
+        "sn": "HWTC259C4CA8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "29",
+        "sn": "ZTEGCFD47E02"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "30",
+        "sn": "ZTEGD164E871"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "31",
+        "sn": "ZTEGCBD91401"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "32",
+        "sn": "HWTC070D114F"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "33",
+        "sn": "ZTEGD2288AA8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "34",
+        "sn": "ZTEGC8A0AD00"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "35",
+        "sn": "ZTEGCE52BA34"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "36",
+        "sn": "ZTEGD2288D38"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "37",
+        "sn": "CIOT09074A10"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "38",
+        "sn": "ZTEGD32894E8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "39",
+        "sn": "RTEGC7037CA6"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "40",
+        "sn": "ZTEGCAAD4E49"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "41",
+        "sn": "RTEGC7036457"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "42",
+        "sn": "ZTEGC2C52C49"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "43",
+        "sn": "ZTEGC6643019"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "44",
+        "sn": "ZTEGD1663111"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "45",
+        "sn": "ZTEGC038F604"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "46",
+        "sn": "ZTEGC1D6ECF5"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "47",
+        "sn": "ZTEGC1DABC1B"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "48",
+        "sn": "ZTEGC0415750"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "49",
+        "sn": "ZTEGC51C21DE"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "50",
+        "sn": "ZTEGC0E032E1"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "51",
+        "sn": "ZTEGD1D94207"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "52",
+        "sn": "ZTEGC51C38FD"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "53",
+        "sn": "ZTEGC914A7B0"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "54",
+        "sn": "ZTEGCE57FAC8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "55",
+        "sn": "ZTEGCD1D12B6"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "56",
+        "sn": "ZTEGD0180E28"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "57",
+        "sn": "ZTEGCAAEA67A"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "58",
+        "sn": "ZTEGC1CB4B98"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "59",
+        "sn": "ZTEGCE7E3E03"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "60",
+        "sn": "CMDCB128464E"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "61",
+        "sn": "ZTEGD1C882CB"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "62",
+        "sn": "ZTEGC8A0D30C"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "63",
+        "sn": "CMDCB12FD01A"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "64",
+        "sn": "ZTEGD16629A4"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "65",
+        "sn": "CMDCB12C3E49"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "74",
+        "sn": "HWTCF926BBA2"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "80",
+        "sn": "ZICGA6A818B9"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "81",
+        "sn": "ZICG153D800E"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "86",
+        "sn": "ZTEGC826A5F9"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "88",
+        "sn": "ZTEGC039B1CB"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "92",
+        "sn": "MHEGCCCC810B"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "98",
+        "sn": "ZTEGCD9D1997"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "99",
+        "sn": "ZXICFF1B84D8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "100",
+        "sn": "ZXICFF2BABD8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "104",
+        "sn": "ZTEGD099B8A8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "105",
+        "sn": "ZXICFF0FA5B8"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "108",
+        "sn": "ZTEGD0181B78"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "109",
+        "sn": "ZTEGD0181808"
+    },
+    {
+        "pon": "1/1/6",
+        "onu_id": "110",
+        "sn": "ZTEGD0182798"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "1",
+        "sn": "ZXICFF1F4E28"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "2",
+        "sn": "ZTEGC0452EBF"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "3",
+        "sn": "CIOT1023D60C"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "4",
+        "sn": "ZTEGCBDBEBFC"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "5",
+        "sn": "ZTEGCFD44D08"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "6",
+        "sn": "ZTEGD0181978"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "7",
+        "sn": "ZTEGD4A44040"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "8",
+        "sn": "ZTEGD018F278"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "9",
+        "sn": "HWTC070DA56F"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "10",
+        "sn": "ZTEGD0180488"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "11",
+        "sn": "ZTEGD0187038"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "12",
+        "sn": "ZTEGD328A1A8"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "13",
+        "sn": "HWTCAC1791AC"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "14",
+        "sn": "ZTEGC0E9EFA4"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "15",
+        "sn": "HWTC07015A7F"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "16",
+        "sn": "ZTEGC8A08CB9"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "17",
+        "sn": "RTEGC70359F0"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "18",
+        "sn": "ZTEGD42876D8"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "19",
+        "sn": "ZTEGD3289568"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "20",
+        "sn": "ZTEGD228C668"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "21",
+        "sn": "ZTEGD228CBC8"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "22",
+        "sn": "ZTEGD328B048"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "23",
+        "sn": "ZTEGD328D558"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "24",
+        "sn": "HWTC070D7E0F"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "25",
+        "sn": "ZTEGD01825D8"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "26",
+        "sn": "RTEGC70691B5"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "27",
+        "sn": "ZTEGCB06F209"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "28",
+        "sn": "ZTEGC8A0643B"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "29",
+        "sn": "ZTEGC9033DCD"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "30",
+        "sn": "ZTEGD4A4724A"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "31",
+        "sn": "RTEGC7035EDB"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "32",
+        "sn": "RTEGCA958DAC"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "33",
+        "sn": "ZTEGCBDBB280"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "34",
+        "sn": "ZTEGC0DC5129"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "35",
+        "sn": "CMDC10C03C97"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "36",
+        "sn": "ZTEGC7B5A001"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "37",
+        "sn": "MHEGCCC667E9"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "38",
+        "sn": "ZTEGC1D6FB0B"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "39",
+        "sn": "ZTEGC04511C2"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "40",
+        "sn": "ZTEGD4AFA20F"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "41",
+        "sn": "ZTEGC04125E3"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "42",
+        "sn": "ZTEGD1662443"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "43",
+        "sn": "ZTEGCDFE5568"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "44",
+        "sn": "ZTEGC0E02AAD"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "45",
+        "sn": "ZTEGD2288BB8"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "46",
+        "sn": "HWTC754EFD9E"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "47",
+        "sn": "ZTEGC8A0A053"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "48",
+        "sn": "CMDCB128364A"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "55",
+        "sn": "ZTEGC8A06EDB"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "62",
+        "sn": "HWTCE42C29AA"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "65",
+        "sn": "ZTEGD1C84B53"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "67",
+        "sn": "ZTEGD4AF6582"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "68",
+        "sn": "ZTEGD1D93425"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "69",
+        "sn": "CMDCB1235E43"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "73",
+        "sn": "ZTEGCCA3F62A"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "77",
+        "sn": "ZTEGCA3E1291"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "78",
+        "sn": "HWTC5C16A4AA"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "85",
+        "sn": "ZTEGD4A4786D"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "87",
+        "sn": "ZTEGD1661FDA"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "89",
+        "sn": "RTEGCA95ADA9"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "90",
+        "sn": "RTEGCA95B885"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "93",
+        "sn": "ZTEGD1DFA0C7"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "101",
+        "sn": "RTEGCA95AE00"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "107",
+        "sn": "RTEGC706AA05"
+    },
+    {
+        "pon": "1/1/7",
+        "onu_id": "112",
+        "sn": "ZTEGD228A688"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "1",
+        "sn": "ZTEGD1D94223"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "2",
+        "sn": "ZTEGD0186AD8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "3",
+        "sn": "ZTEGD4283BF8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "4",
+        "sn": "ZTEGD42812B8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "5",
+        "sn": "ZTEGC1D82D93"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "6",
+        "sn": "ZTEGC8A07B55"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "7",
+        "sn": "ZTEGD4281FE8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "8",
+        "sn": "ZTEGD0181608"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "9",
+        "sn": "HWTC07015B6F"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "10",
+        "sn": "ZTEGC8A0C5BA"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "11",
+        "sn": "ZTEGD0833F91"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "12",
+        "sn": "HWTC070D1CCF"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "13",
+        "sn": "ZTEGC0DB415D"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "14",
+        "sn": "ZTEGD32896B8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "15",
+        "sn": "RTEGC70626E1"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "16",
+        "sn": "RTEGC706BE5D"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "17",
+        "sn": "ZTEG0301A7D0"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "18",
+        "sn": "ZTEGC1F18605"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "19",
+        "sn": "CMDCB12E2223"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "20",
+        "sn": "ZTEGC2C54396"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "21",
+        "sn": "ZTEGC2C5353D"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "22",
+        "sn": "ZTEGC0E8AB7D"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "23",
+        "sn": "ZTEGC0CB6886"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "24",
+        "sn": "CIOT0A34B8F8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "25",
+        "sn": "ZTEGC2C5365C"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "26",
+        "sn": "ZTEGC9456BD6"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "27",
+        "sn": "CIOT18DF6E08"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "28",
+        "sn": "ZTEGCE56BBF8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "29",
+        "sn": "ZTEGD4281BC8"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "30",
+        "sn": "ZTEGD0181A78"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "31",
+        "sn": "ZTEGC1DACD65"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "32",
+        "sn": "ZTEGD166138B"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "33",
+        "sn": "ZTEGCAFE8781"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "34",
+        "sn": "ZTEGCC875A1D"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "35",
+        "sn": "ZTEGC8175A00"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "36",
+        "sn": "ZTEGC8051F51"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "37",
+        "sn": "CIOT217A8F40"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "38",
+        "sn": "CIOT0905A5F0"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "39",
+        "sn": "ZTEGD1661AAC"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "40",
+        "sn": "CMDCB121EB1E"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "45",
+        "sn": "ZTEGC8A085B0"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "47",
+        "sn": "ZTEGC8A0C32A"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "52",
+        "sn": "ZTEGD164F670"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "71",
+        "sn": "ZTEGCE38EBCE"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "75",
+        "sn": "ZTEGC1ED825A"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "76",
+        "sn": "ZTEGD4A440F5"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "84",
+        "sn": "ZTEGD4A44086"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "91",
+        "sn": "ZTEGC676E70E"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "96",
+        "sn": "ZTEGD16501F4"
+    },
+    {
+        "pon": "1/1/8",
+        "onu_id": "106",
+        "sn": "ZXICFF1DBD68"
+    }
+]
