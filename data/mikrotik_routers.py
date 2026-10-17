@@ -22,8 +22,8 @@ ROUTERS = {
         "password": os.getenv("MIKROTIK_NOMBES_PASSWORD", ""),
         "port": int(os.getenv("MIKROTIK_NOMBES_PORT", "8777"))
     }
-
-    for router_id, host in DEVICE_IPS.get("mikrotik_hosts", {}).items():
-        if router_id in ROUTERS:
-            ROUTERS[router_id]["host"] = host
 }
+
+for router_id, host in DEVICE_IPS.get("mikrotik_hosts", {}).items():
+    if router_id in ROUTERS:
+        ROUTERS[router_id]["host"] = host
