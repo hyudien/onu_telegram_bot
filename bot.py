@@ -14,8 +14,10 @@ from telegram.ext import (
 
 from handlers.start import (
     start,
-    access_callback
+    access_callback,
+    setup_command
 )
+from handlers.device_setup import handle_device_setup_input
 
 from handlers.register import (
     menu_handler,
@@ -43,6 +45,13 @@ def main():
     )
 
     app.add_handler(
+        CommandHandler(
+            "setup",
+            setup_command
+        )
+    )
+
+    app.add_handler(
         CallbackQueryHandler(
             access_callback,
             pattern="^(acc_|reject_)"
@@ -55,11 +64,15 @@ def main():
         )
     )
 
+    async def route_text(update, context):
+        if not await handle_device_setup_input(update, context):
+            await menu_handler(update, context)
+
     app.add_handler(
         MessageHandler(
             filters.TEXT &
             ~filters.COMMAND,
-            menu_handler
+            route_text
         )
     )
 

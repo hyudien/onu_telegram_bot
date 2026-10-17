@@ -1,4 +1,6 @@
 .env
+data/device_config.json
+data/device_config.tmp
 .venv/
 venv/
 __pycache__/

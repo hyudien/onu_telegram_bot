@@ -3,6 +3,7 @@ import telnetlib
 import time
 
 from settings import load_dotenv
+from data.device_config import load_device_ips
 
 load_dotenv()
 
@@ -17,7 +18,8 @@ def open_olt_connection():
         raise RuntimeError(
             "OLT_USERNAME dan OLT_PASSWORD harus diatur di file .env."
         )
-    return telnetlib.Telnet(HOST, PORT)
+    olt_host = load_device_ips().get("olt_host", HOST)
+    return telnetlib.Telnet(olt_host, PORT)
 
 
 def get_uncfg_onu():

@@ -36,7 +36,8 @@ Copy-Item .env.example .env
 ## Konfigurasi
 
 Edit `.env`, lalu isi `BOT_TOKEN`, kredensial OLT, dan kredensial router yang
-akan digunakan. Sesuaikan alamat dan port jika jaringan Anda berbeda.
+akan digunakan. Port dan kredensial tetap dikonfigurasi di `.env`; alamat IP
+perangkat dimasukkan oleh admin melalui Telegram saat setup pertama.
 `ADMIN_ID` adalah ID Telegram administrator yang menerima permintaan akses.
 Jangan membagikan atau meng-commit `.env`.
 
@@ -51,6 +52,11 @@ Pastikan virtual environment aktif dan `.env` sudah diisi, lalu jalankan:
 ```bash
 python bot.py
 ```
+
+Kirim `/start` ke bot. Pada penggunaan pertama, admin diminta memasukkan IP OLT,
+lalu IP untuk setiap router MikroTik yang terdaftar (saat ini KWL dan NOMBES).
+Alamat disimpan lokal di `data/device_config.json`. Untuk menggantinya, admin
+dapat mengirim `/setup`. User lain baru dapat membuka menu setelah setup selesai.
 
 Bot berjalan dengan polling; hentikan dengan `Ctrl+C`. Perintah pada berkas
 `test_*.py` dan beberapa skrip di `tools/` dapat terhubung ke perangkat nyata

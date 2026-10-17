@@ -1,7 +1,4 @@
-import os
-
 from telegram import (
-    ReplyKeyboardMarkup,
     InlineKeyboardMarkup,
     InlineKeyboardButton,
     Update
@@ -13,16 +10,8 @@ from data.users import (
     load_users,
     add_user
 )
-
-ADMIN_ID = int(os.getenv("ADMIN_ID", "185653926"))
-
-MENU = ReplyKeyboardMarkup(
-    [
-        ["📡 MANAGE OLT"],
-        ["🌐 MANAGE MIKROTIK"]
-    ],
-    resize_keyboard=True
-)
+from handlers.common import ADMIN_ID, MENU
+from handlers.device_setup import device_setup_is_complete, start_device_setup
 
 async def start(
     update: Update,
@@ -67,10 +56,27 @@ async def start(
 
         return
 
+    if user_id == ADMIN_ID and not device_setup_is_complete():
+        await start_device_setup(update, context)
+        return
+
+    if not device_setup_is_complete():
+        await update.message.reply_text(
+            "Setup IP perangkat belum selesai. Hubungi admin terlebih dahulu."
+        )
+        return
+
     await update.message.reply_text(
         "Selamat datang di Bot ONU",
         reply_markup=MENU
     )
+
+
+async def setup_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    if update.effective_user.id not in load_users():
+        await update.message.reply_text("Akses belum disetujui.")
+        return
+    await start_device_setup(update, context)
 
 
 async def access_callback(
