@@ -1,14 +1,28 @@
+import os
 import telnetlib
 import time
 
-HOST = "192.168.220.31"
-USER = "admin"
-PASS = "admin99"
+from settings import load_dotenv
+
+load_dotenv()
+
+HOST = os.getenv("OLT_HOST", "192.168.220.31")
+PORT = int(os.getenv("OLT_PORT", "23"))
+USER = os.getenv("OLT_USERNAME", "")
+PASS = os.getenv("OLT_PASSWORD", "")
+
+
+def open_olt_connection():
+    if not USER or not PASS:
+        raise RuntimeError(
+            "OLT_USERNAME dan OLT_PASSWORD harus diatur di file .env."
+        )
+    return telnetlib.Telnet(HOST, PORT)
 
 
 def get_uncfg_onu():
 
-    tn = telnetlib.Telnet(HOST, 23)
+    tn = open_olt_connection()
 
     tn.read_until(b"Username:")
     tn.write(USER.encode() + b"\n")
@@ -34,7 +48,7 @@ def get_uncfg_onu():
 
 def get_olt_config(pon):
 
-    tn = telnetlib.Telnet(HOST, 23)
+    tn = open_olt_connection()
 
     tn.read_until(b"Username:")
     tn.write(USER.encode() + b"\n")
@@ -79,7 +93,7 @@ def get_olt_config(pon):
 
 def connect_olt():
 
-    tn = telnetlib.Telnet(HOST, 23)
+    tn = open_olt_connection()
 
     tn.read_until(b"Username:")
     tn.write(USER.encode() + b"\n")

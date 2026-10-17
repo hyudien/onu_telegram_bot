@@ -1,17 +1,23 @@
+import os
+
+from settings import load_dotenv
+
+load_dotenv()
+
 ROUTERS = {
 
     "KWL": {
-        "host": "192.168.220.1",
-        "username": "admin",
-        "password": "Bismill@h",
-        "port": 3101
+        "host": os.getenv("MIKROTIK_KWL_HOST", "192.168.220.1"),
+        "username": os.getenv("MIKROTIK_KWL_USERNAME", ""),
+        "password": os.getenv("MIKROTIK_KWL_PASSWORD", ""),
+        "port": int(os.getenv("MIKROTIK_KWL_PORT", "3101"))
     },
 
     "NOMBES": {
-        "host": "103.160.178.39",
-        "username": "admin",
-        "password": "Bismillah99",
-        "port": 8777
+        "host": os.getenv("MIKROTIK_NOMBES_HOST", "103.160.178.39"),
+        "username": os.getenv("MIKROTIK_NOMBES_USERNAME", ""),
+        "password": os.getenv("MIKROTIK_NOMBES_PASSWORD", ""),
+        "port": int(os.getenv("MIKROTIK_NOMBES_PORT", "8777"))
     }
 
 }

@@ -1,3 +1,9 @@
+import os
+
+from settings import load_dotenv
+
+load_dotenv()
+
 from telegram.ext import (
     Application,
     CommandHandler,
@@ -16,9 +22,11 @@ from handlers.register import (
     callback_handler
 )
 
-BOT_TOKEN = "8743219836:AAErmf_AtZKegQoG0VEnZEYr3VGmRh99NFo"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 def main():
+    if not BOT_TOKEN:
+        raise RuntimeError("BOT_TOKEN belum diatur. Isi file .env terlebih dahulu.")
 
     app = (
         Application

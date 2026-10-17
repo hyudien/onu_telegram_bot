@@ -1,12 +1,12 @@
 import telnetlib
 import time
 
-from olt.zte import HOST, USER, PASS
+from olt.zte import open_olt_connection
 
 
 def delete_onu(pon, onu_id):
 
-    tn = telnetlib.Telnet(HOST, 23)
+    tn = open_olt_connection()
 
     tn.read_until(b"Username:")
     tn.write(USER.encode() + b"\n")

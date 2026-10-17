@@ -11,12 +11,12 @@ sys.path.append(
 import telnetlib
 import time
 
-from olt.zte import HOST, USER, PASS
+from olt.zte import open_olt_connection
 
 PON = "1/1/6"
 ONU = "3"
 
-tn = telnetlib.Telnet(HOST, 23)
+tn = open_olt_connection()
 
 tn.read_until(b"Username:")
 tn.write(USER.encode() + b"\n")

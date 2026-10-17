@@ -6,12 +6,12 @@ STATUS_CACHE = {
     "last_update": 0
 }
 
-from olt.zte import HOST, USER, PASS
+from olt.zte import HOST, USER, PASS, open_olt_connection
 from olt.register_onu import send_command
 
 def connect_olt():
 
-    tn = telnetlib.Telnet(HOST, 23)
+    tn = open_olt_connection()
 
     tn.read_until(b"Username:")
     tn.write(USER.encode() + b"\n")

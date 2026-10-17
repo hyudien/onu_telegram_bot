@@ -1,11 +1,6 @@
-from librouteros import connect
+from mikrotik.api import get_api
 
-api = connect(
-    username='admin',
-    password='Bismill@h',
-    host='192.168.220.1',
-    port=3101
-)
+api = get_api("KWL")
 
 resource = list(api.path('system', 'resource'))[0]
 

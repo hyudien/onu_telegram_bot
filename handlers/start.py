@@ -1,3 +1,5 @@
+import os
+
 from telegram import (
     ReplyKeyboardMarkup,
     InlineKeyboardMarkup,
@@ -12,7 +14,7 @@ from data.users import (
     add_user
 )
 
-ADMIN_ID = 185653926
+ADMIN_ID = int(os.getenv("ADMIN_ID", "185653926"))
 
 MENU = ReplyKeyboardMarkup(
     [

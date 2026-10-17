@@ -1,3 +1,5 @@
+import os
+
 from telegram import (
     Update,
     ReplyKeyboardMarkup,
@@ -17,7 +19,10 @@ from telegram.ext import (
 from olt.zte import get_uncfg_onu
 from olt.parser import parse_uncfg
 
-BOT_TOKEN = "8743219836:AAErmf_AtZKegQoG0VEnZEYr3VGmRh99NFo"
+from settings import load_dotenv
+
+load_dotenv()
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 MAIN_MENU = ReplyKeyboardMarkup(
     [

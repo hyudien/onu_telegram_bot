@@ -13,7 +13,7 @@ sys.path.append(
     )
 )
 
-from olt.zte import HOST, USER, PASS
+from olt.zte import open_olt_connection
 
 
 def send_cmd(tn, cmd, delay=2):
@@ -31,7 +31,7 @@ all_onus = []
 
 print("LOGIN OLT...")
 
-tn = telnetlib.Telnet(HOST, 23)
+tn = open_olt_connection()
 
 tn.read_until(b"Username:")
 tn.write(USER.encode() + b"\n")
