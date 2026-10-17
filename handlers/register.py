@@ -831,19 +831,20 @@ async def menu_handler(
         mode = context.user_data.get("mode", "")
         print("MODE DEBUG =", repr(mode))
         if mode.upper() == "BRIDGE":
-            buttons = []
-            for p in PACKAGES:
-                buttons.append([
-                    InlineKeyboardButton(
-                        p,
-                        callback_data=f"pkg_{PACKAGES[p]}"
-                    )
-                ])
+            buttons = [
+                [InlineKeyboardButton("☑ REGISTRASI", callback_data="register")],
+                [InlineKeyboardButton("✘ BATAL", callback_data="cancel")]
+            ]
             await update.message.reply_text(
-                "Pilih Paket",
-                reply_markup=InlineKeyboardMarkup(
-                    buttons
-                )
+                f"KONFIRMASI REGISTRASI\n\n"
+                f"Nama : {context.user_data['customer']}\n"
+                f"SN : {context.user_data['sn']}\n"
+                f"PON : {context.user_data['pon']}\n"
+                f"TYPE : {context.user_data['onu_type']}\n"
+                f"MODE : {context.user_data['mode']}\n"
+                f"VLAN BRG : {context.user_data['bridge_vlan']}\n"
+                f"PAKET BRG : {context.user_data['bridge_package']}",
+                reply_markup=InlineKeyboardMarkup(buttons)
             )
             context.user_data["step"] = None
 
@@ -1471,29 +1472,18 @@ async def callback_handler(
         if mode.upper() == "PPPOE+BRIDGE":
 
             buttons = [
-                [
-                    InlineKeyboardButton(
-                        "BRG(30)",
-                        callback_data="bridge_vlan_30"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "BRG(44)",
-                        callback_data="bridge_vlan_44"
-                    )
-                ]
+                [InlineKeyboardButton(name, callback_data=f"ppp_pkg_{profile}")]
+                for name, profile in PACKAGES.items()
             ]
 
             await query.edit_message_text(
                 f"VLAN PPPoE : {vlan}\n\n"
-                f"Pilih VLAN Bridge",
-                reply_markup=InlineKeyboardMarkup(
-                    buttons
-                )
+                f"Pilih Paket PPPoE",
+                reply_markup=InlineKeyboardMarkup(buttons)
             )
 
             return
+
         buttons = []
 
         for name, profile in PACKAGES.items():
@@ -1525,23 +1515,23 @@ async def callback_handler(
 
         context.user_data["bridge_vlan"] = bridge_vlan
 
-        buttons = []
+        buttons = [
+            [InlineKeyboardButton(name, callback_data=f"brg_pkg_{profile}")]
+            for name, profile in PACKAGES.items()
+        ]
 
-        for name, profile in PACKAGES.items():
-            buttons.append([
-                InlineKeyboardButton(
-                    name,
-                    callback_data=f"ppp_pkg_{profile}"
-                )
-            ])
+        if context.user_data.get("mode", "").upper() == "BRIDGE":
+            header = f"VLAN Bridge : {bridge_vlan}\n\n"
+        else:
+            header = (
+                f"VLAN PPPoE : {context.user_data['vlan']}\n"
+                f"PAKET PPPoE : {context.user_data['pppoe_package']}\n"
+                f"VLAN Bridge: {bridge_vlan}\n\n"
+            )
 
         await query.edit_message_text(
-            f"VLAN PPPoE : {context.user_data['vlan']}\n"
-            f"VLAN Bridge: {bridge_vlan}\n\n"
-            f"Pilih Paket",
-            reply_markup=InlineKeyboardMarkup(
-                buttons
-            )
+            header + "Pilih Paket Bridge",
+            reply_markup=InlineKeyboardMarkup(buttons)
         )
 
         return
@@ -1555,22 +1545,16 @@ async def callback_handler(
 
         context.user_data["pppoe_package"] = package
 
-        buttons = []
-
-        for name, profile in PACKAGES.items():
-            buttons.append([
-                InlineKeyboardButton(
-                    name,
-                    callback_data=f"brg_pkg_{profile}"
-                )
-            ])
+        buttons = [
+            [InlineKeyboardButton("BRG(30)", callback_data="bridge_vlan_30")],
+            [InlineKeyboardButton("BRG(44)", callback_data="bridge_vlan_44")]
+        ]
 
         await query.edit_message_text(
+            f"VLAN PPPoE : {context.user_data['vlan']}\n"
             f"PAKET PPPoE : {package}\n\n"
-            f"Pilih Paket Bridge",
-            reply_markup=InlineKeyboardMarkup(
-                buttons
-            )
+            f"Pilih VLAN Bridge",
+            reply_markup=InlineKeyboardMarkup(buttons)
         )
 
         return
@@ -1586,11 +1570,23 @@ async def callback_handler(
 
         context.user_data["step"] = "customer_name"
 
-        await query.edit_message_text(
-            f"PAKET PPPoE  : {context.user_data['pppoe_package']}\n"
-            f"PAKET BRIDGE : {package}\n\n"
-            f"Masukkan nama customer:"
-        )
+        if context.user_data.get("mode", "").upper() == "BRIDGE":
+            # register_onu reads vlan/package for the single bridge service
+            context.user_data["vlan"] = context.user_data["bridge_vlan"]
+            context.user_data["package"] = package
+            text = (
+                f"VLAN Bridge  : {context.user_data['bridge_vlan']}\n"
+                f"PAKET BRIDGE : {package}\n\n"
+                f"Masukkan nama customer:"
+            )
+        else:
+            text = (
+                f"PAKET PPPoE  : {context.user_data['pppoe_package']}\n"
+                f"PAKET BRIDGE : {package}\n\n"
+                f"Masukkan nama customer:"
+            )
+
+        await query.edit_message_text(text)
 
         return
 
@@ -1602,44 +1598,6 @@ async def callback_handler(
         )
 
         context.user_data["package"] = package
-
-        mode = context.user_data.get(
-            "mode",
-            ""
-        )
-
-        if mode.upper() == "BRIDGE":
-
-            buttons = [
-                [
-                    InlineKeyboardButton(
-                        "☑ REGISTRASI",
-                        callback_data="register"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "✘ BATAL",
-                        callback_data="cancel"
-                    )
-                ]
-            ]
-
-            await query.edit_message_text(
-                f"KONFIRMASI REGISTRASI\n\n"
-                f"Nama : {context.user_data['customer']}\n"
-                f"SN : {context.user_data['sn']}\n"
-                f"PON : {context.user_data['pon']}\n"
-                f"TYPE : {context.user_data['onu_type']}\n"
-                f"MODE : {context.user_data['mode']}\n"
-                f"VLAN : {context.user_data['vlan']}\n"
-                f"PAKET : {package}",
-                reply_markup=InlineKeyboardMarkup(
-                    buttons
-                )
-            )
-
-            return
 
         await query.edit_message_text(
             f"SN     : {context.user_data['sn']}\n"
@@ -1724,7 +1682,7 @@ async def callback_handler(
                 f"PPP    : {context.user_data.get('pppoe_package','')}\n"
                 f"BRG    : {context.user_data.get('bridge_package','')}\n"
                 f"VLAN P : {context.user_data['vlan']}\n"
-                f"VLAN B : {context.user_data.get('bridge','')}\n"
+                f"VLAN B : {context.user_data.get('bridge_vlan','')}\n"
                 f"USER   : {user}\n"
             )
 
